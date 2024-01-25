@@ -1,0 +1,213 @@
+#+title: Presentation Notes
+
+* Structure
+
+** Project Goals:
+    Outline the specific goals of your project, such as predicting trajectories, detecting patterns, or optimizing routes.
+
+- create a linear model that predicts the trajectory of the cars.
+- more specifically, create an discrete integration method that give a continuous data (picture of datapoints -> corresponding graph)
+- acceleration parameters should be the same over all integration formulas (show the initial formula and then the rearanged model such that the acceleration matches)
+
+** Data Collection:
+    Describe the dataset used for the analysis
+    Mention the source of the data and any preprocessing steps applied.
+
+    (Picture of the rqth github repo, and dataset maybe)
+    (Show a )
+
+** Methodology:
+    Explain the coding approach or algorithm used for trajectory analysis.
+    Discuss any machine learning models, computer vision techniques, or other methodologies implemented.
+
+- using python (numpy, pandas)
+- in the end it is just a linear regression model (show all the formulas of the model)
+- choose one and shortly explain what the parameters are (higlight one formula)
+
+- took the columns of distance, speed, and acceleration, concated them run them through the model
+- create test set and training set
+
+- now we got the parameters for said model (show the coefficient value)
+- plug them back into the integration model (show the equation and highlight the coefficients)
+
+** Results:
+    Present the results of your analysis.
+    Discuss any insights gained, anomalies detected, or patterns observed.
+
+    Include visual representations of car trajectories.
+    Use graphs, charts, or maps to illustrate key findings or patterns.
+
+(Visualization of predicted car vs actual car)
+(Show the graphs of the predictions)
+
+
+** Challenges Faced:
+
+    Talk about any challenges encountered during the project and how you overcame them.
+    Discuss limitations of your approach or areas for improvement.
+
+** Future Work:
+
+    Share potential extensions or improvements for the project.
+    Discuss how the project could be expanded or applied in real-world scenarios.
+
+
+
+
+li
+
+
+
+
+
+mode
+
+
+
+
+
+
+* Title
+Motionn Planning of Autonomous Vehicles: Scene-aware and Social-aware Motion Prediction for Autonomous Driving
+
+
+* Questions for tmrw
+- do I have to test it with the neural network as well?
+- What about the report?
+- ask if problemstatement is correct
+
+Supervisor:
+Matthias Althoff
+Di Liu
+
+
+
+Presentation as soon as possible
+
+Report as soon as possible
+
+
+Plugin to show video of dataset
+Give some visualization
+Definitely give some videos
+
+Give slides
+
+
+
+
+* Structure
+** Motivation and problem statement
+*** Problem statement
+Motivation:
+    Autonomous driving promises safer and more efficient transportation.
+    Understanding human-driven vehicle motion behaviors is crucial for ensuring the safety of autonomous driving.
+    Human motion is inherently multimodal and intricately tied to the surrounding scene [1].
+
+Challenges:
+    Prediction of human behavior is complicated by the challenges of multimodality and scene dependence.
+    Social acceptance plays a crucial role in predicting trajectories.
+    Some trajectories may be physically possible but socially unacceptable.
+    Human drivers adhere to social norms, such as yielding right-of-way or respecting pedestrians.
+
+Current Approaches:
+
+    Tools from social-aware artificial intelligence (AI) have been used to predict human behavior [2] [3].
+    However, existing tools lack a control-oriented perspective.
+    They lack a systematic representation through a system model, making interpretation of interacting agents' intents challenging.
+
+*** Our approach
+Testing and Evaluation of State-of-the-Art:
+        Similar to the broader research goals, our team will focus on testing and evaluating state-of-the-art tools.
+        We will particularly explore different scenarios, including curved roads, intersections, and other relevant road situations.
+
+Development of New Control-Oriented (Interpretable) Tools:
+        Our team's primary objective aligns with the research goal of creating new control-oriented and interpretable tools.
+        Specifically, we will concentrate on the multi-modal context, incorporating virtual forces among agents to enhance the predictive capabilities of our models.
+
+Premise:
+- premise is, car interacting with other cars as this is a human driving a car
+- when driving alone on a street you are drive differently as when other cars are present
+- some paths or actions are physically possible but might be 'socially' unaccaptable for humans
+
+Our approach:
+- introduce virtual forces between the cars to enhance prediction of movement
+- these hypothetical forces enable us to predict cars movement in higher accuracy by including the interaction of a car with other cars surrounding us.
+- we do that by analysing two cars in specific scenarios e.g (car lane changing, exiting lane, entering lane, overtaking)
+
+How the analisation works in our case:
+- we need a model that somehow explains the movement of the car such that we can use it for the neural network for predicting the movement of the car
+- the neural network will then integreate
+- the input of the human is the accerlation pedal in the car
+- this will be ou
+
+problem
+- we have a discrete dataset since measurements are taken in time intervalls
+- problem until know that we have a big error if we plug it into the neural network model
+- we want to approximate the actual continuous movement of the car to feed that into the neural network for analysis
+- It is using the acceleration as ground truth, as a human decides the acceleration of the car via the pedal we want a integration model that works for discretized datasets, that can calculate the speed and velocity of the car by the acceleration input.
+
+
+** Detailed description of the implemented method
+*** Alfred
+
+
+Firstly load the dataset of the cars
+
+
+
+
+our approach
+- using a model to describe the movement of the car using a linear model which can be solve using Linear Regression
+- was trained on X data with Y entries
+- results and compare it to old models while our model was x-times better than the old one whilst having the acceleration equivalence
+- show the visualization results
+
+
+
+
+
+
+** Advantages and disadvantages of the implementation
+
+** Evaluation of the results
+
+
+
+* Subsections
+** Motivation
+Understanding motion behavior of human-driven vehicles is critical for attaining safety of autonomous driving.
+This prediction is challenging because human motion is inherently multimodal and scene-dependent [1] Social acceptance is crucial in prediction.
+Some trajectories are physically possible but socially unacceptable.
+Human drivers typically respect social norms like yielding right-of-way or respecting person In recent years, tools from social-aware artificial intelligence (AI) have been used to predict the behaviour of humans and human drivers [2] [3] Problem: these tools work well, but are not control-oriented! (no system model, no easy interpretation for the intents of interacting agents)
+
+** Research goals
+1) Test and evaluate state of the art
+Test some of these social-aware AI tools (e.g. SVG-net);
+Apply to relevant CommonRoad scenarios;
+Consider different scenarios: curved roads, intersections, etc;
+Sensitivity analysis (i.e. generalization capabilities);
+
+2) New control-oriented (interpretable) tools
+Use Kalman prediction as the basic framework;
+Scene context: incorporate constraints;
+Multi-agent context: cooperative prediction (information sharing);
+Multi-modal context: include virtual forces among agents;
+
+** Our goal
+1) Test and evaluate state of the art
+Consider different scenarios: curved roads, intersections, etc;
+
+2) New control-oriented (interpretable) tools
+Multi-modal context: include virtual forces among agents;
+
+
+
+* Connect to Tum server
+
+
+Best way to connect to the server is using the ssh extension on vscode
+ssh namehere@ars.cps.cit.tum.de
+
+
+ash
