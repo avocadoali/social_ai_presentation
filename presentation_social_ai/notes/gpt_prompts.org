@@ -1,0 +1,89 @@
+#+title: Gpt Prompts
+
+
+We have to make a presentation
+
+I am a college student, studying computer science. For the remainder of this conversation I want you to respond from a college teachers point of view. When I ask you a question, I don't only want you to give me the answer, but I want you to clearly explain step by step, how you found that answer. Occasionally ask if I understand everything and if there is anything that we have discussed that I want to readdress.
+
+Can you help me with presentation I have to prepare for a seminar. The title is Motionn Planning of Autonomous Vehicles: Scene-aware and Social-aware Motion Prediction for Autonomous Driving.
+This is the presentation structure I came up with. Can you add bulletpoints to it?
+
+
+
+* Motivation
+First I want to tacle the motivation and problem statement.
+Write a short introductory text for the presentation using incorporating the following information we got:
+
+Motivation
+Understanding motion behavior of human-driven vehicles is critical for attaining safety of autonomous driving.
+This prediction is challenging because human motion is inherently multimodal and scene-dependent [1] Social acceptance is crucial in prediction.
+Some trajectories are physically possible but socially unacceptable.
+Human drivers typically respect social norms like yielding right-of-way or respecting person In recent years, tools from social-aware artificial intelligence (AI) have been used to predict the behaviour of humans and human drivers [2] [3] Problem: these tools work well, but are not control-oriented! (no system model, no easy interpretation for the intents of interacting agents)
+
+** Answer
+Motivation:
+    Autonomous driving promises safer and more efficient transportation.
+    Understanding human-driven vehicle motion behaviors is crucial for ensuring the safety of autonomous driving.
+    Human motion is inherently multimodal and intricately tied to the surrounding scene [1].
+
+Challenges:
+    Prediction of human behavior is complicated by the challenges of multimodality and scene dependence.
+    Social acceptance plays a crucial role in predicting trajectories.
+    Some trajectories may be physically possible but socially unacceptable.
+    Human drivers adhere to social norms, such as yielding right-of-way or respecting pedestrians.
+
+Current Approaches:
+
+    Tools from social-aware artificial intelligence (AI) have been used to predict human behavior [2] [3].
+    However, existing tools lack a control-oriented perspective.
+    They lack a systematic representation through a system model, making interpretation of interacting agents' intents challenging.
+
+
+
+* Research goals
+First I want to tacle the research goals and our goals for the team.
+Write a short text for the presentation using incorporating the following information we got:
+
+Research Golas
+1) Test and evaluate state of the art
+Test some of these social-aware AI tools (e.g. SVG-net);
+Apply to relevant CommonRoad scenarios;
+Consider different scenarios: curved roads, intersections, etc;
+Sensitivity analysis (i.e. generalization capabilities);
+
+2) New control-oriented (interpretable) tools
+Use Kalman prediction as the basic framework;
+Scene context: incorporate constraints;
+Multi-agent context: cooperative prediction (information sharing);
+Multi-modal context: include virtual forces among agents;
+
+ Our goal
+1) Test and evaluate state of the art
+Consider different scenarios: curved roads, intersections, etc;
+
+2) New control-oriented (interpretable) tools
+Multi-modal context: include virtual forces among agents;
+** Answer
+Research Goals:
+
+    Testing and Evaluation of State-of-the-Art:
+        We aim to rigorously test and evaluate cutting-edge social-aware AI tools, such as SVG-net.
+        The evaluation will involve the application of these tools to relevant CommonRoad scenarios, covering a spectrum of situations, including curved roads, intersections, and more.
+        Our research will explore different scenarios to understand the tools' performance across a variety of road situations.
+        We will conduct sensitivity analyses to assess the generalization capabilities of these tools.
+
+    Development of New Control-Oriented (Interpretable) Tools:
+        Utilizing Kalman prediction as the foundational framework, we aspire to create new tools that enhance interpretability.
+        Our approach involves incorporating scene context to introduce constraints within the predictive models.
+        In a multi-agent context, we plan to implement cooperative prediction, emphasizing information sharing among agents.
+        Considering a multi-modal context, our goal is to include virtual forces among agents, providing a richer and more dynamic predictive model.
+
+Our Goal:
+
+    Testing and Evaluation of State-of-the-Art:
+        Similar to the broader research goals, our team will focus on testing and evaluating state-of-the-art tools.
+        We will particularly explore different scenarios, including curved roads, intersections, and other relevant road situations.
+
+    Development of New Control-Oriented (Interpretable) Tools:
+        Our team's primary objective aligns with the research goal of creating new control-oriented and interpretable tools.
+        Specifically, we will concentrate on the multi-modal context, incorporating virtual forces among agents to enhance the predictive capabilities of our models.
