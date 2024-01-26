@@ -1,6 +1,101 @@
 #+title: Presentation Notes
 
 * Structure
+** Motivation and problem statement
+Premise:
+- autonomous driving promises safer and more efficient transportation.
+- understanding human-driven vehicle motion behaviors is crucial for ensuring the safety of autonomous driving.
+- premise is, car interacting with other cars as this is a human driving a car
+- when driving alone on a street you drive differently as when other cars are present
+- some trajectories may be physically possible but socially unacceptable.
+- human drivers adhere to social norms, such as yielding right-of-way or respecting pedestrians.
+- thus, we introduce virtual forces between the cars to enhance prediction of movement
+- A neural network will try to modulate these forces and will enable us to predict the car movements in higher accuracy by including the interaction of a car with other cars surrounding it
+
+Our task:
+Baris
+- analysing the forces between cars in different scenarios (lane merging, ...)
+-> get the dataset and filter it out by the different scenarios
+
+Alfred
+- neural network has problems using the current integration methods
+- big dicretization and other errors because we are working with data points (not continuous graph)
+-> find a more accurate discrete integration model that predicts the movement of the car better
+
+Graphics:
+Cool picture from Di Lius presentation
+Picture of a car with two paths (one physically possible, one socially accepted)
+Table of the tasks of what Baris/Alfreds tasks are
+
+** Detailed description of the implemented method
+
+*** Data Collection:
+Content:
+Describe the dataset used for the analysis
+- How where they taken
+- How many data points
+- What scenarios
+- Show the dataset as video
+
+Graphics:
+Picture of the rwth aach github repo, and dataset maybe
+Show a video of the moving cars
+
+*** Baris' part
+Content:
+What did you use
+What measures did you take for the scenarios
+How many datapoints did you run through
+
+Graphics:
+- an overview of the parameters of how you filtered the data??
+
+*** Alfreds part
+Content:
+How does the model look like?
+- explain that data is discrete and we need to find a method to integrate discrete datapoints
+- used a linear model for the prediciono
+- have to equlize the accerleration for the neural network
+- tested 10 different model
+- solved this by using linear regression (using python, numpy and pandas)
+
+Graphics:
+- Show ballistic integration
+- Show 10 models we tried (focus the one we used)
+
+
+** Results
+Evaluation:
+Successes/Problems of filtering out scenarios
+- Successfully filtered X datapoints and Y different scenarios
+
+Successes/Problems of prediciting car movement
+- after playing around with some parameters and databatch sizes
+- Acceleration and Velocity are more accurate than ballistic integration
+- Distance measure is bad (finetune the model)
+
+Out of curiosity we tried to train a model on the scnearios (this would be done by the neural network)
+- bad results (bc linear model)
+
+Graphics:
+- what for filtering part?
+- show the graphs for the velocity and the distance of the models
+- comparison that to the ballistic integration
+-
+
+
+** Future work
+Getting even more scenarios?
+Trying out different models for the movement prediction (finetune model, add more parameters)
+
+Actually testing it with the neural network
+Feeding results into the neural network
+
+Graphics:
+Table/List of what to do
+
+
+* Structure
 
 ** Project Goals:
     Outline the specific goals of your project, such as predicting trajectories, detecting patterns, or optimizing routes.
@@ -8,13 +103,6 @@
 - create a linear model that predicts the trajectory of the cars.
 - more specifically, create an discrete integration method that give a continuous data (picture of datapoints -> corresponding graph)
 - acceleration parameters should be the same over all integration formulas (show the initial formula and then the rearanged model such that the acceleration matches)
-
-** Data Collection:
-    Describe the dataset used for the analysis
-    Mention the source of the data and any preprocessing steps applied.
-
-    (Picture of the rqth github repo, and dataset maybe)
-    (Show a )
 
 ** Methodology:
     Explain the coding approach or algorithm used for trajectory analysis.
@@ -53,20 +141,6 @@
 
 
 
-
-li
-
-
-
-
-
-mode
-
-
-
-
-
-
 * Title
 Motionn Planning of Autonomous Vehicles: Scene-aware and Social-aware Motion Prediction for Autonomous Driving
 
@@ -98,44 +172,44 @@ Give slides
 
 * Structure
 ** Motivation and problem statement
-*** Problem statement
-Motivation:
-    Autonomous driving promises safer and more efficient transportation.
-    Understanding human-driven vehicle motion behaviors is crucial for ensuring the safety of autonomous driving.
-    Human motion is inherently multimodal and intricately tied to the surrounding scene [1].
+*** problem statement
+motivation:
+    autonomous driving promises safer and more efficient transportation.
+    understanding human-driven vehicle motion behaviors is crucial for ensuring the safety of autonomous driving.
+    human motion is inherently multimodal and intricately tied to the surrounding scene [1].
 
-Challenges:
-    Prediction of human behavior is complicated by the challenges of multimodality and scene dependence.
-    Social acceptance plays a crucial role in predicting trajectories.
-    Some trajectories may be physically possible but socially unacceptable.
-    Human drivers adhere to social norms, such as yielding right-of-way or respecting pedestrians.
+challenges:
+    prediction of human behavior is complicated by the challenges of multimodality and scene dependence.
+    social acceptance plays a crucial role in predicting trajectories.
+    some trajectories may be physically possible but socially unacceptable.
+    human drivers adhere to social norms, such as yielding right-of-way or respecting pedestrians.
 
-Current Approaches:
+current approaches:
 
-    Tools from social-aware artificial intelligence (AI) have been used to predict human behavior [2] [3].
-    However, existing tools lack a control-oriented perspective.
-    They lack a systematic representation through a system model, making interpretation of interacting agents' intents challenging.
+    tools from social-aware artificial intelligence (ai) have been used to predict human behavior [2] [3].
+    however, existing tools lack a control-oriented perspective.
+    they lack a systematic representation through a system model, making interpretation of interacting agents' intents challenging.
 
-*** Our approach
-Testing and Evaluation of State-of-the-Art:
-        Similar to the broader research goals, our team will focus on testing and evaluating state-of-the-art tools.
-        We will particularly explore different scenarios, including curved roads, intersections, and other relevant road situations.
+*** our approach
+testing and evaluation of state-of-the-art:
+        similar to the broader research goals, our team will focus on testing and evaluating state-of-the-art tools.
+        we will particularly explore different scenarios, including curved roads, intersections, and other relevant road situations.
 
-Development of New Control-Oriented (Interpretable) Tools:
-        Our team's primary objective aligns with the research goal of creating new control-oriented and interpretable tools.
-        Specifically, we will concentrate on the multi-modal context, incorporating virtual forces among agents to enhance the predictive capabilities of our models.
+development of new control-oriented (interpretable) tools:
+        our team's primary objective aligns with the research goal of creating new control-oriented and interpretable tools.
+        specifically, we will concentrate on the multi-modal context, incorporating virtual forces among agents to enhance the predictive capabilities of our models.
 
-Premise:
+premise:
 - premise is, car interacting with other cars as this is a human driving a car
 - when driving alone on a street you are drive differently as when other cars are present
 - some paths or actions are physically possible but might be 'socially' unaccaptable for humans
 
-Our approach:
+our approach:
 - introduce virtual forces between the cars to enhance prediction of movement
 - these hypothetical forces enable us to predict cars movement in higher accuracy by including the interaction of a car with other cars surrounding us.
 - we do that by analysing two cars in specific scenarios e.g (car lane changing, exiting lane, entering lane, overtaking)
 
-How the analisation works in our case:
+how the analisation works in our case:
 - we need a model that somehow explains the movement of the car such that we can use it for the neural network for predicting the movement of the car
 - the neural network will then integreate
 - the input of the human is the accerlation pedal in the car
@@ -145,7 +219,7 @@ problem
 - we have a discrete dataset since measurements are taken in time intervalls
 - problem until know that we have a big error if we plug it into the neural network model
 - we want to approximate the actual continuous movement of the car to feed that into the neural network for analysis
-- It is using the acceleration as ground truth, as a human decides the acceleration of the car via the pedal we want a integration model that works for discretized datasets, that can calculate the speed and velocity of the car by the acceleration input.
+- it is using the acceleration as ground truth, as a human decides the acceleration of the car via the pedal we want a integration model that works for discretized datasets, that can calculate the speed and velocity of the car by the acceleration input.
 
 
 ** Detailed description of the implemented method

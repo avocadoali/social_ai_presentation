@@ -82,7 +82,7 @@
 \title[Title]{Scene-aware and Social-aware Motion
 Prediction for Autonomous Driving}
 
-\author[Name]{Alfred Nguyen}
+\author[Name]{Alfred Nguyen, Baris Sözüdogru}
 \institute[TU M\"unchen]{Technical University of Munich}
 
 \date{January~06,~2024}
@@ -103,62 +103,20 @@ Prediction for Autonomous Driving}
     \titlepage
 \end{frame}
 
+\begin{frame}
+  \frametitle{Gliederung}
+  \tableofcontents
+\end{frame}
+  
 
-\section{1. Introduction}
+\input{sections/test}
 
-\begin{frame}{Motivation for Set-Based Prediction $[$1$]$}
-\blfootnote{\tiny $[$1$]$ M. Althoff and S. Magdici, ``Set-based prediction of traffic participants on arbitrary road networks,'' IEEE Transactions on Intelligent Vehicles, vol. 1, no. 2, pp. 187--202, 2016.}
 
-	\centering	
-	\footnotesize
-      \psfrag{o}[c][c]{obstacle}						
-      \psfrag{c}[c][c]{traffic participant}
-      \psfrag{e}[c][c]{ego vehicle}
-      \psfrag{f}[c][c]{intended trajectory}      
-      \psfrag{w}[r][c]{$t \in [t_0, t_1]$:}
-      \psfrag{x}[r][c]{$t \in [t_1, t_2]$:}
-      \psfrag{y}[r][c]{$t \in [t_2, t_3]$:}
-      \includegraphics[width=0.8\columnwidth, height=0.74\textheight, keepaspectratio]{./figures/snapshots_blue.eps}
-      %\caption{Snapshots of the predicted occupancy of the traffic participant for selected consecutive time intervals.}
+\begin{frame}
+  \begin{center}
+  Thank you for your attention:)
+  \end{center}
 \end{frame}
 
-
-%\begin{frame}{Outline}
-%\begin{enumerate}
-%\item Item
-%\vfill \item Item
-%\vfill \item Item
-%\vfill \item Item
-%\vfill \item Item
-%\end{enumerate} 
-%\end{frame}
-
-
-\section{2. Model of the Traffic Participants}
-
-\begin{frame}{SPOT}
-SPOT: A tool for set-based prediction of traffic participants $[$2$]$\blfootnote{\tiny $[$2$]$ M. Koschi and M. Althoff, ``SPOT: A tool for set-based prediction of traffic participants,'' in Proc. of the IEEE Intelligent Vehicles Symposium, pp. 1679--1686, 2017.}%\footnote{spot.in.tum.de}
-\vspace{1em}
-
-\begin{center}
-	{\footnotesize
-	\psfrag{a}[r][c]{Obstacle~1}	
-	\psfrag{b}[l][c]{Obstacle~2}
-	\psfrag{c}[c][c]{Obstacle~3}
-	\includegraphics[height=0.5\textheight]{./figures/Scenario_Intersection_Occ_1,5-2,0s_final.eps}
-	} \\
-	\vspace{1em}
-	Initial configuration and $\mathcal{O}(t)$ for $t \in [\unit[1.5]{s}, \unit[2.0]{s}]$
-\end{center}
-
-\end{frame}
-
-\section{4. Numerical Examples}
-
-\section{Conclusions}
-\input{sections/test}
-
-\input{sections/test}
-\input{sections/test}
 
 \end{document}

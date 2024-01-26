@@ -1,5 +1,14 @@
 #+title: Gpt Prompts
 
+our task
+- analysing the forces between cars in different scenarios (lane merging, ...)
+-> get the dataset and filter it out by the different scenarios
+
+- neural network has problems using the current integration methods 
+- big dicretization and other errors because we are working with data points (not continuous graph)
+-> find a more accurate discrete integration model that predicts the movement of the car better
+
+
 
 We have to make a presentation
 
