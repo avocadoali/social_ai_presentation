@@ -1,0 +1,1 @@
+cp /home/ali/tum/motion_planning/recordings/*cropped* /home/ali/tum/motion_planning/social_ai_report_and_presentation/presentation_social_ai/figures/video

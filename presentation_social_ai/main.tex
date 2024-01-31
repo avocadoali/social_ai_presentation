@@ -9,6 +9,11 @@
 %\documentclass[shortpres,aspectratio=169]{beamer}
 \usetheme{CambridgeUS}
 \usepackage{svg}
+%Graphics and Videos
+\usepackage{graphicx} %The mode "LaTeX => PDF" allows the following formats: .jpg  .png  .pdf  .mps
+\graphicspath{{./PresentationPictures/}} %Where the figures folder is located
+\usepackage{media9}
+\addmediapath{./Movies/}
 
 \setbeamertemplate{footline}
 {
@@ -121,10 +126,12 @@ Prediction for Autonomous Driving}
   \tableofcontents
 \end{frame}
 
-\input{sections/method.tex}
 
 %\input{sections/motivation.tex}
-%\input{sections/results.tex}
+
+
+\input{sections/method.tex}
+\input{sections/results.tex}
 %\input{sections/future_work.tex}
 \input{sections/test}
 
