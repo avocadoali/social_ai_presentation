@@ -1,0 +1,1 @@
+cp -r /home/ali/tum/motion_planning/social_ai_practical_course/reports/figures/* /home/ali/tum/motion_planning/social_ai_report_and_presentation/presentation_social_ai/figures

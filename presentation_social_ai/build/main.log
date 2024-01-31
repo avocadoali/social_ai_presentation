@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2024.1.26)  26 JAN 2024 11:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2024.1.26)  31 JAN 2024 18:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -537,7 +537,26 @@ Package: amsthm 2020/05/29 v2.20.6
 ) (/usr/share/texmf-dist/tex/latex/beamer/beamerbasethemes.sty)) (/usr/share/texmf-dist/tex/latex/beamer/beamerthemedefault.sty (/usr/share/texmf-dist/tex/latex/beamer/beamerfontthemedefault.sty) (/usr/share/texmf-dist/tex/latex/beamer/beamercolorthemedefault.sty) (/usr/share/texmf-dist/tex/latex/beamer/beamerinnerthemedefault.sty
 \beamer@dima=\dimen292
 \beamer@dimb=\dimen293
-) (/usr/share/texmf-dist/tex/latex/beamer/beamerouterthemedefault.sty))) (/usr/share/texmf-dist/tex/latex/beamer/beamerthemeCambridgeUS.sty (/usr/share/texmf-dist/tex/latex/beamer/beamerinnerthemerounded.sty) (/usr/share/texmf-dist/tex/latex/beamer/beamerouterthemeinfolines.sty) (/usr/share/texmf-dist/tex/latex/beamer/beamercolorthemebeaver.sty)) (/usr/share/texmf-dist/tex/latex/subfigure/subfigure.sty
+) (/usr/share/texmf-dist/tex/latex/beamer/beamerouterthemedefault.sty))) (/usr/share/texmf-dist/tex/latex/beamer/beamerthemeCambridgeUS.sty (/usr/share/texmf-dist/tex/latex/beamer/beamerinnerthemerounded.sty) (/usr/share/texmf-dist/tex/latex/beamer/beamerouterthemeinfolines.sty) (/usr/share/texmf-dist/tex/latex/beamer/beamercolorthemebeaver.sty)) (/usr/share/texmf-dist/tex/latex/svg/svg.sty
+Package: svg 2020/11/26 v2.02k (include SVG pictures)
+ (/usr/share/texmf-dist/tex/latex/koma-script/scrbase.sty
+Package: scrbase 2022/10/12 v3.38 KOMA-Script package (KOMA-Script-independent basics and keyval usage)
+Applying: [2021/05/01] Usage of raw or classic option list on input line 252.
+Already applied: [0000/00/00] Usage of raw or classic option list on input line 368.
+) (/usr/share/texmf-dist/tex/latex/trimspaces/trimspaces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+) (/usr/share/texmf-dist/tex/latex/tools/shellesc.sty
+Package: shellesc 2019/11/08 v1.0c unified shell escape interface for LaTeX
+Package shellesc Info: Restricted shell escape enabled on input line 77.
+)
+\c@svg@param@lastpage=\count334
+\svg@box=\box76
+\c@svg@param@currpage=\count335
+) (/usr/share/texmf-dist/tex/latex/transparent/transparent.sty
+Package: transparent 2022-10-27 v1.5 Transparency with color stacks
+ (/usr/share/texmf-dist/tex/latex/transparent/transparent-nometadata.sty
+Package: transparent-nometadata 2022-10-27 v1.5 Transparency via pdfTeX's color stack (HO)
+)) (/usr/share/texmf-dist/tex/latex/subfigure/subfigure.sty
 Package: subfigure 2002/03/15 v2.1.5 subfigure package
 \subfigtopskip=\skip65
 \subfigcapskip=\skip66
@@ -545,10 +564,10 @@ Package: subfigure 2002/03/15 v2.1.5 subfigure package
 \subfigbottomskip=\skip67
 \subfigcapmargin=\dimen295
 \subfiglabelskip=\skip68
-\c@subfigure=\count334
-\c@lofdepth=\count335
-\c@subtable=\count336
-\c@lotdepth=\count337
+\c@subfigure=\count336
+\c@lofdepth=\count337
+\c@subtable=\count338
+\c@lotdepth=\count339
 
 ****************************************
 * Local config file subfigure.cfg used *
@@ -559,7 +578,7 @@ Package: subfigure 2002/03/15 v2.1.5 subfigure package
 ) (/usr/share/texmf-dist/tex/latex/textpos/textpos.sty
 Package: textpos 2022/07/23 v1.10.1
 Package textpos Info: choosing support for LaTeX3 on input line 60.
-\TP@textbox=\box76
+\TP@textbox=\box77
 \TPHorizModule=\dimen296
 \TPVertModule=\dimen297
 \TP@margin=\dimen298
@@ -570,8 +589,8 @@ Grid set 16 x 16 = 22.7622pt x 17.07166pt
 \TP@tbargs=\toks45
 ) (/usr/share/texmf-dist/tex/latex/psfrag/psfrag.sty
 Package: psfrag 1998/04/11 v3.04 PSfrag (MCG)
-\pfg@pcount=\count338
-\pfg@scount=\count339
+\pfg@pcount=\count340
+\pfg@scount=\count341
 \pfg@temp=\write5
 ) (/usr/share/texmf-dist/tex/latex/units/units.sty
 Package: units 1998/08/04 v0.9b Typesetting units
@@ -584,29 +603,29 @@ Package: nicefrac 1998/08/04 v0.9b Nice fractions
 \L@UnitsRaiseScriptstyle=\skip73
 )) (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count340
-\l__pdf_internal_box=\box77
+\l__color_backend_stack_int=\count342
+\l__pdf_internal_box=\box78
 ) (build/main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -644,16 +663,16 @@ LaTeX Font Info:    ... okay on input line 91.
 
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count341
+\scratchcounter=\count343
 \scratchdimen=\dimen301
-\scratchbox=\box78
-\nofMPsegments=\count342
-\nofMParguments=\count343
+\scratchbox=\box79
+\nofMPsegments=\count344
+\nofMParguments=\count345
 \everyMPshowfont=\toks46
-\MPscratchCnt=\count344
+\MPscratchCnt=\count346
 \MPscratchDim=\dimen302
-\MPnumerator=\count345
-\makeMPintoPDFobject=\count346
+\MPnumerator=\count347
+\makeMPintoPDFobject=\count348
 \everyMPtoPDFconversion=\toks47
 ) (/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -661,60 +680,60 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring OFF on input line 91.
+Package hyperref Info: Link coloring OFF on input line 104.
  (build/main.out) (build/main.out)
 \@outlinefile=\write6
 \openout6 = `main.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 91.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 104.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 91.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 104.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 91.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 91.
+(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 104.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 104.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 91.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 104.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 91.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 91.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 104.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 104.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 91.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 104.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 91.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 91.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 104.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 104.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 91.
+(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 104.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 91.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 91.
+(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 104.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 104.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 91.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 104.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 91.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 104.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 91.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 104.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 91.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 104.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/cmr/b/n on input line 91.
+(Font)                  OT1/cmss/b/n --> OT1/cmr/b/n on input line 104.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/cmss/b/n on input line 91.
+(Font)                  OT1/cmss/b/n --> OT1/cmss/b/n on input line 104.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 91.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 104.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 91.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 104.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/b/n on input line 91.
-LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 91.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/b/n on input line 104.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 104.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
-(Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 91.
+(Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 104.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/b/it --> OT1/mathkerncmss/m/sl on input line 91.
+(Font)                  OT1/cmss/b/it --> OT1/mathkerncmss/m/sl on input line 104.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on input line 91.
+(Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on input line 104.
  (/usr/share/texmf-dist/tex/latex/translator/translator-basic-dictionary-English.dict
 Dictionary: translator-basic-dictionary, Language: English 
 ) (/usr/share/texmf-dist/tex/latex/translator/translator-bibliography-dictionary-English.dict
@@ -739,28 +758,284 @@ Package epstopdf Info: Source file: <./figures/TUM_Logo_weiss_e.eps>
 (epstopdf)                    date: 2024-01-25 15:59:25
 (epstopdf)                    size: 2561 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figures/TUM_Logo_weiss_e-eps-converted-to.pdf ./figures/TUM_Logo_weiss_e.eps>
-(epstopdf)             \includegraphics on input line 109.
+(epstopdf)             \includegraphics on input line 122.
 Package epstopdf Info: Output file is already uptodate.
-<./figures/TUM_Logo_weiss_e-eps-converted-to.pdf, id=42, 742.775pt x 391.4625pt>
+<./figures/TUM_Logo_weiss_e-eps-converted-to.pdf, id=54, 742.775pt x 391.4625pt>
 File: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf>
-Package pdftex.def Info: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf  used on input line 109.
+Package pdftex.def Info: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf  used on input line 122.
 (pdftex.def)             Requested size: 35.0895pt x 18.49411pt.
  [2
 
- <./figures/TUM_Logo_weiss_e-eps-converted-to.pdf>] (./sections/test.tex
-LaTeX Font Info:    Trying to load font information for U+msa on input line 17.
+ <./figures/TUM_Logo_weiss_e-eps-converted-to.pdf>] (./sections/method.tex (build/main.toc)
+Package epstopdf Info: Source file: <./figures/TUM_Logo_weiss_e.eps>
+(epstopdf)                    date: 2024-01-25 15:58:42
+(epstopdf)                    size: 1854822 bytes
+(epstopdf)             Output file: <./figures/TUM_Logo_weiss_e-eps-converted-to.pdf>
+(epstopdf)                    date: 2024-01-25 15:59:25
+(epstopdf)                    size: 2561 bytes
+(epstopdf)             Command: <repstopdf --outfile=./figures/TUM_Logo_weiss_e-eps-converted-to.pdf ./figures/TUM_Logo_weiss_e.eps>
+(epstopdf)             \includegraphics on input line 2.
+Package epstopdf Info: Output file is already uptodate.
+File: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf Graphic file (type pdf)
+<use ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf>
+Package pdftex.def Info: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf  used on input line 2.
+(pdftex.def)             Requested size: 35.0895pt x 18.49411pt.
+ [3
+
+]
+LaTeX Font Info:    Trying to load font information for U+msa on input line 42.
  (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 17.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 42.
  (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on input line 17.
+LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on input line 42.
  (/usr/share/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/mathkerncmss.
 )
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 42.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 42.
+
+Package epstopdf Info: Source file: <./figures/TUM_Logo_weiss_e.eps>
+(epstopdf)                    date: 2024-01-25 15:58:42
+(epstopdf)                    size: 1854822 bytes
+(epstopdf)             Output file: <./figures/TUM_Logo_weiss_e-eps-converted-to.pdf>
+(epstopdf)                    date: 2024-01-25 15:59:25
+(epstopdf)                    size: 2561 bytes
+(epstopdf)             Command: <repstopdf --outfile=./figures/TUM_Logo_weiss_e-eps-converted-to.pdf ./figures/TUM_Logo_weiss_e.eps>
+(epstopdf)             \includegraphics on input line 42.
+Package epstopdf Info: Output file is already uptodate.
+File: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf Graphic file (type pdf)
+<use ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf>
+Package pdftex.def Info: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf  used on input line 42.
+(pdftex.def)             Requested size: 35.0895pt x 18.49411pt.
+[4
+
+]
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 42.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 42.
+
+Package epstopdf Info: Source file: <./figures/TUM_Logo_weiss_e.eps>
+(epstopdf)                    date: 2024-01-25 15:58:42
+(epstopdf)                    size: 1854822 bytes
+(epstopdf)             Output file: <./figures/TUM_Logo_weiss_e-eps-converted-to.pdf>
+(epstopdf)                    date: 2024-01-25 15:59:25
+(epstopdf)                    size: 2561 bytes
+(epstopdf)             Command: <repstopdf --outfile=./figures/TUM_Logo_weiss_e-eps-converted-to.pdf ./figures/TUM_Logo_weiss_e.eps>
+(epstopdf)             \includegraphics on input line 42.
+Package epstopdf Info: Output file is already uptodate.
+File: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf Graphic file (type pdf)
+<use ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf>
+Package pdftex.def Info: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf  used on input line 42.
+(pdftex.def)             Requested size: 35.0895pt x 18.49411pt.
+[5
+
+]
+Package epstopdf Info: Source file: <./figures/TUM_Logo_weiss_e.eps>
+(epstopdf)                    date: 2024-01-25 15:58:42
+(epstopdf)                    size: 1854822 bytes
+(epstopdf)             Output file: <./figures/TUM_Logo_weiss_e-eps-converted-to.pdf>
+(epstopdf)                    date: 2024-01-25 15:59:25
+(epstopdf)                    size: 2561 bytes
+(epstopdf)             Command: <repstopdf --outfile=./figures/TUM_Logo_weiss_e-eps-converted-to.pdf ./figures/TUM_Logo_weiss_e.eps>
+(epstopdf)             \includegraphics on input line 64.
+Package epstopdf Info: Output file is already uptodate.
+File: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf Graphic file (type pdf)
+<use ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf>
+Package pdftex.def Info: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf  used on input line 64.
+(pdftex.def)             Requested size: 35.0895pt x 18.49411pt.
+ [6
+
+]
+Package epstopdf Info: Source file: <./figures/TUM_Logo_weiss_e.eps>
+(epstopdf)                    date: 2024-01-25 15:58:42
+(epstopdf)                    size: 1854822 bytes
+(epstopdf)             Output file: <./figures/TUM_Logo_weiss_e-eps-converted-to.pdf>
+(epstopdf)                    date: 2024-01-25 15:59:25
+(epstopdf)                    size: 2561 bytes
+(epstopdf)             Command: <repstopdf --outfile=./figures/TUM_Logo_weiss_e-eps-converted-to.pdf ./figures/TUM_Logo_weiss_e.eps>
+(epstopdf)             \includegraphics on input line 64.
+Package epstopdf Info: Output file is already uptodate.
+File: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf Graphic file (type pdf)
+<use ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf>
+Package pdftex.def Info: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf  used on input line 64.
+(pdftex.def)             Requested size: 35.0895pt x 18.49411pt.
+ [7
+
+]
+Package epstopdf Info: Source file: <./figures/TUM_Logo_weiss_e.eps>
+(epstopdf)                    date: 2024-01-25 15:58:42
+(epstopdf)                    size: 1854822 bytes
+(epstopdf)             Output file: <./figures/TUM_Logo_weiss_e-eps-converted-to.pdf>
+(epstopdf)                    date: 2024-01-25 15:59:25
+(epstopdf)                    size: 2561 bytes
+(epstopdf)             Command: <repstopdf --outfile=./figures/TUM_Logo_weiss_e-eps-converted-to.pdf ./figures/TUM_Logo_weiss_e.eps>
+(epstopdf)             \includegraphics on input line 88.
+Package epstopdf Info: Output file is already uptodate.
+File: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf Graphic file (type pdf)
+<use ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf>
+Package pdftex.def Info: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf  used on input line 88.
+(pdftex.def)             Requested size: 35.0895pt x 18.49411pt.
+ [8
+
+]
+Package epstopdf Info: Source file: <./figures/TUM_Logo_weiss_e.eps>
+(epstopdf)                    date: 2024-01-25 15:58:42
+(epstopdf)                    size: 1854822 bytes
+(epstopdf)             Output file: <./figures/TUM_Logo_weiss_e-eps-converted-to.pdf>
+(epstopdf)                    date: 2024-01-25 15:59:25
+(epstopdf)                    size: 2561 bytes
+(epstopdf)             Command: <repstopdf --outfile=./figures/TUM_Logo_weiss_e-eps-converted-to.pdf ./figures/TUM_Logo_weiss_e.eps>
+(epstopdf)             \includegraphics on input line 88.
+Package epstopdf Info: Output file is already uptodate.
+File: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf Graphic file (type pdf)
+<use ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf>
+Package pdftex.def Info: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf  used on input line 88.
+(pdftex.def)             Requested size: 35.0895pt x 18.49411pt.
+ [9
+
+]
+Package epstopdf Info: Source file: <./figures/TUM_Logo_weiss_e.eps>
+(epstopdf)                    date: 2024-01-25 15:58:42
+(epstopdf)                    size: 1854822 bytes
+(epstopdf)             Output file: <./figures/TUM_Logo_weiss_e-eps-converted-to.pdf>
+(epstopdf)                    date: 2024-01-25 15:59:25
+(epstopdf)                    size: 2561 bytes
+(epstopdf)             Command: <repstopdf --outfile=./figures/TUM_Logo_weiss_e-eps-converted-to.pdf ./figures/TUM_Logo_weiss_e.eps>
+(epstopdf)             \includegraphics on input line 122.
+Package epstopdf Info: Output file is already uptodate.
+File: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf Graphic file (type pdf)
+<use ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf>
+Package pdftex.def Info: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf  used on input line 122.
+(pdftex.def)             Requested size: 35.0895pt x 18.49411pt.
+ [10
+
+]
+Package epstopdf Info: Source file: <./figures/TUM_Logo_weiss_e.eps>
+(epstopdf)                    date: 2024-01-25 15:58:42
+(epstopdf)                    size: 1854822 bytes
+(epstopdf)             Output file: <./figures/TUM_Logo_weiss_e-eps-converted-to.pdf>
+(epstopdf)                    date: 2024-01-25 15:59:25
+(epstopdf)                    size: 2561 bytes
+(epstopdf)             Command: <repstopdf --outfile=./figures/TUM_Logo_weiss_e-eps-converted-to.pdf ./figures/TUM_Logo_weiss_e.eps>
+(epstopdf)             \includegraphics on input line 122.
+Package epstopdf Info: Output file is already uptodate.
+File: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf Graphic file (type pdf)
+<use ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf>
+Package pdftex.def Info: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf  used on input line 122.
+(pdftex.def)             Requested size: 35.0895pt x 18.49411pt.
+ [11
+
+]) (./sections/test.tex (build/main.toc)
+Package epstopdf Info: Source file: <./figures/TUM_Logo_weiss_e.eps>
+(epstopdf)                    date: 2024-01-25 15:58:42
+(epstopdf)                    size: 1854822 bytes
+(epstopdf)             Output file: <./figures/TUM_Logo_weiss_e-eps-converted-to.pdf>
+(epstopdf)                    date: 2024-01-25 15:59:25
+(epstopdf)                    size: 2561 bytes
+(epstopdf)             Command: <repstopdf --outfile=./figures/TUM_Logo_weiss_e-eps-converted-to.pdf ./figures/TUM_Logo_weiss_e.eps>
+(epstopdf)             \includegraphics on input line 2.
+Package epstopdf Info: Output file is already uptodate.
+File: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf Graphic file (type pdf)
+<use ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf>
+Package pdftex.def Info: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf  used on input line 2.
+(pdftex.def)             Requested size: 35.0895pt x 18.49411pt.
+ [12
+
+]
+<figures/acceleration_mod/acceleration_mod_dist_y.png, id=146, 505.89pt x 505.89pt>
+File: figures/acceleration_mod/acceleration_mod_dist_y.png Graphic file (type png)
+<use figures/acceleration_mod/acceleration_mod_dist_y.png>
+Package pdftex.def Info: figures/acceleration_mod/acceleration_mod_dist_y.png  used on input line 12.
+(pdftex.def)             Requested size: 171.14764pt x 171.1512pt.
+Package epstopdf Info: Source file: <./figures/TUM_Logo_weiss_e.eps>
+(epstopdf)                    date: 2024-01-25 15:58:42
+(epstopdf)                    size: 1854822 bytes
+(epstopdf)             Output file: <./figures/TUM_Logo_weiss_e-eps-converted-to.pdf>
+(epstopdf)                    date: 2024-01-25 15:59:25
+(epstopdf)                    size: 2561 bytes
+(epstopdf)             Command: <repstopdf --outfile=./figures/TUM_Logo_weiss_e-eps-converted-to.pdf ./figures/TUM_Logo_weiss_e.eps>
+(epstopdf)             \includegraphics on input line 12.
+Package epstopdf Info: Output file is already uptodate.
+File: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf Graphic file (type pdf)
+<use ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf>
+Package pdftex.def Info: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf  used on input line 12.
+(pdftex.def)             Requested size: 35.0895pt x 18.49411pt.
+ [13
+
+ <./figures/acceleration_mod/acceleration_mod_dist_y.png>]
+<figures/acceleration_mod/acceleration_mod_dist_x.png, id=157, 505.89pt x 505.89pt>
+File: figures/acceleration_mod/acceleration_mod_dist_x.png Graphic file (type png)
+<use figures/acceleration_mod/acceleration_mod_dist_x.png>
+Package pdftex.def Info: figures/acceleration_mod/acceleration_mod_dist_x.png  used on input line 21.
+(pdftex.def)             Requested size: 171.14764pt x 171.1512pt.
+Package epstopdf Info: Source file: <./figures/TUM_Logo_weiss_e.eps>
+(epstopdf)                    date: 2024-01-25 15:58:42
+(epstopdf)                    size: 1854822 bytes
+(epstopdf)             Output file: <./figures/TUM_Logo_weiss_e-eps-converted-to.pdf>
+(epstopdf)                    date: 2024-01-25 15:59:25
+(epstopdf)                    size: 2561 bytes
+(epstopdf)             Command: <repstopdf --outfile=./figures/TUM_Logo_weiss_e-eps-converted-to.pdf ./figures/TUM_Logo_weiss_e.eps>
+(epstopdf)             \includegraphics on input line 21.
+Package epstopdf Info: Output file is already uptodate.
+File: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf Graphic file (type pdf)
+<use ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf>
+Package pdftex.def Info: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf  used on input line 21.
+(pdftex.def)             Requested size: 35.0895pt x 18.49411pt.
+ [14
+
+ <./figures/acceleration_mod/acceleration_mod_dist_x.png>]
+<figures/acceleration_mod/acceleration_mod_vel_y.png, id=165, 505.89pt x 505.89pt>
+File: figures/acceleration_mod/acceleration_mod_vel_y.png Graphic file (type png)
+<use figures/acceleration_mod/acceleration_mod_vel_y.png>
+Package pdftex.def Info: figures/acceleration_mod/acceleration_mod_vel_y.png  used on input line 30.
+(pdftex.def)             Requested size: 171.14764pt x 171.1512pt.
+Package epstopdf Info: Source file: <./figures/TUM_Logo_weiss_e.eps>
+(epstopdf)                    date: 2024-01-25 15:58:42
+(epstopdf)                    size: 1854822 bytes
+(epstopdf)             Output file: <./figures/TUM_Logo_weiss_e-eps-converted-to.pdf>
+(epstopdf)                    date: 2024-01-25 15:59:25
+(epstopdf)                    size: 2561 bytes
+(epstopdf)             Command: <repstopdf --outfile=./figures/TUM_Logo_weiss_e-eps-converted-to.pdf ./figures/TUM_Logo_weiss_e.eps>
+(epstopdf)             \includegraphics on input line 30.
+Package epstopdf Info: Output file is already uptodate.
+File: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf Graphic file (type pdf)
+<use ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf>
+Package pdftex.def Info: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf  used on input line 30.
+(pdftex.def)             Requested size: 35.0895pt x 18.49411pt.
+ [15
+
+ <./figures/acceleration_mod/acceleration_mod_vel_y.png>]
+<figures/acceleration_mod/acceleration_mod_vel_x.png, id=173, 505.89pt x 505.89pt>
+File: figures/acceleration_mod/acceleration_mod_vel_x.png Graphic file (type png)
+<use figures/acceleration_mod/acceleration_mod_vel_x.png>
+Package pdftex.def Info: figures/acceleration_mod/acceleration_mod_vel_x.png  used on input line 39.
+(pdftex.def)             Requested size: 171.14764pt x 171.1512pt.
+Package epstopdf Info: Source file: <./figures/TUM_Logo_weiss_e.eps>
+(epstopdf)                    date: 2024-01-25 15:58:42
+(epstopdf)                    size: 1854822 bytes
+(epstopdf)             Output file: <./figures/TUM_Logo_weiss_e-eps-converted-to.pdf>
+(epstopdf)                    date: 2024-01-25 15:59:25
+(epstopdf)                    size: 2561 bytes
+(epstopdf)             Command: <repstopdf --outfile=./figures/TUM_Logo_weiss_e-eps-converted-to.pdf ./figures/TUM_Logo_weiss_e.eps>
+(epstopdf)             \includegraphics on input line 39.
+Package epstopdf Info: Output file is already uptodate.
+File: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf Graphic file (type pdf)
+<use ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf>
+Package pdftex.def Info: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf  used on input line 39.
+(pdftex.def)             Requested size: 35.0895pt x 18.49411pt.
+ [16
+
+ <./figures/acceleration_mod/acceleration_mod_vel_x.png>]
 Package epstopdf Info: Source file: <./figures/snapshots_blue.eps>
 (epstopdf)                    date: 2024-01-25 15:58:42
 (epstopdf)                    size: 1418546 bytes
@@ -768,12 +1043,12 @@ Package epstopdf Info: Source file: <./figures/snapshots_blue.eps>
 (epstopdf)                    date: 2024-01-25 15:59:24
 (epstopdf)                    size: 73457 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figures/snapshots_blue-eps-converted-to.pdf ./figures/snapshots_blue.eps>
-(epstopdf)             \includegraphics on input line 17.
+(epstopdf)             \includegraphics on input line 58.
 Package epstopdf Info: Output file is already uptodate.
-<./figures/snapshots_blue-eps-converted-to.pdf, id=50, 298.11375pt x 223.83624pt>
+<./figures/snapshots_blue-eps-converted-to.pdf, id=181, 298.11375pt x 223.83624pt>
 File: ./figures/snapshots_blue-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures/snapshots_blue-eps-converted-to.pdf>
-Package pdftex.def Info: ./figures/snapshots_blue-eps-converted-to.pdf  used on input line 17.
+Package pdftex.def Info: ./figures/snapshots_blue-eps-converted-to.pdf  used on input line 58.
 (pdftex.def)             Requested size: 245.8195pt x 184.57153pt.
 Package epstopdf Info: Source file: <./figures/TUM_Logo_weiss_e.eps>
 (epstopdf)                    date: 2024-01-25 15:58:42
@@ -782,13 +1057,13 @@ Package epstopdf Info: Source file: <./figures/TUM_Logo_weiss_e.eps>
 (epstopdf)                    date: 2024-01-25 15:59:25
 (epstopdf)                    size: 2561 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figures/TUM_Logo_weiss_e-eps-converted-to.pdf ./figures/TUM_Logo_weiss_e.eps>
-(epstopdf)             \includegraphics on input line 17.
+(epstopdf)             \includegraphics on input line 58.
 Package epstopdf Info: Output file is already uptodate.
 File: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf>
-Package pdftex.def Info: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf  used on input line 17.
+Package pdftex.def Info: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf  used on input line 58.
 (pdftex.def)             Requested size: 35.0895pt x 18.49411pt.
- [3
+ [17
 
  <./figures/snapshots_blue-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <./figures/Scenario_Intersection_Occ_1,5-2,0s_final.eps>
@@ -798,12 +1073,12 @@ Package epstopdf Info: Source file: <./figures/Scenario_Intersection_Occ_1,5-2,0
 (epstopdf)                    date: 2024-01-25 15:59:26
 (epstopdf)                    size: 20475 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figures/Scenario_Intersection_Occ_1,5-2,0s_final-eps-converted-to.pdf ./figures/Scenario_Intersection_Occ_1,5-2,0s_final.eps>
-(epstopdf)             \includegraphics on input line 47.
+(epstopdf)             \includegraphics on input line 88.
 Package epstopdf Info: Output file is already uptodate.
-<./figures/Scenario_Intersection_Occ_1,5-2,0s_final-eps-converted-to.pdf, id=250, 257.96375pt x 354.32375pt>
+<./figures/Scenario_Intersection_Occ_1,5-2,0s_final-eps-converted-to.pdf, id=382, 257.96375pt x 354.32375pt>
 File: ./figures/Scenario_Intersection_Occ_1,5-2,0s_final-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures/Scenario_Intersection_Occ_1,5-2,0s_final-eps-converted-to.pdf>
-Package pdftex.def Info: ./figures/Scenario_Intersection_Occ_1,5-2,0s_final-eps-converted-to.pdf  used on input line 47.
+Package pdftex.def Info: ./figures/Scenario_Intersection_Occ_1,5-2,0s_final-eps-converted-to.pdf  used on input line 88.
 (pdftex.def)             Requested size: 90.79248pt x 124.7067pt.
 Package epstopdf Info: Source file: <./figures/TUM_Logo_weiss_e.eps>
 (epstopdf)                    date: 2024-01-25 15:58:42
@@ -812,13 +1087,13 @@ Package epstopdf Info: Source file: <./figures/TUM_Logo_weiss_e.eps>
 (epstopdf)                    date: 2024-01-25 15:59:25
 (epstopdf)                    size: 2561 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figures/TUM_Logo_weiss_e-eps-converted-to.pdf ./figures/TUM_Logo_weiss_e.eps>
-(epstopdf)             \includegraphics on input line 47.
+(epstopdf)             \includegraphics on input line 88.
 Package epstopdf Info: Output file is already uptodate.
 File: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf>
-Package pdftex.def Info: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf  used on input line 47.
+Package pdftex.def Info: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf  used on input line 88.
 (pdftex.def)             Requested size: 35.0895pt x 18.49411pt.
- [4
+ [18
 
  <./figures/Scenario_Intersection_Occ_1,5-2,0s_final-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <./figures/TUM_Logo_weiss_e.eps>
@@ -828,15 +1103,15 @@ Package epstopdf Info: Source file: <./figures/TUM_Logo_weiss_e.eps>
 (epstopdf)                    date: 2024-01-25 15:59:25
 (epstopdf)                    size: 2561 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figures/TUM_Logo_weiss_e-eps-converted-to.pdf ./figures/TUM_Logo_weiss_e.eps>
-(epstopdf)             \includegraphics on input line 59.
+(epstopdf)             \includegraphics on input line 98.
 Package epstopdf Info: Output file is already uptodate.
 File: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf>
-Package pdftex.def Info: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf  used on input line 59.
+Package pdftex.def Info: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf  used on input line 98.
 (pdftex.def)             Requested size: 35.0895pt x 18.49411pt.
- [5
+ [19
 
-]) [6
+]) [20
 
 ]
 \tf@nav=\write7
@@ -850,21 +1125,21 @@ Package pdftex.def Info: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf  used o
 
  (build/main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: E1F07C18A289A938E06746422D5B6707;91.
+(rerunfilecheck)             Checksum: 5EA3351CA1C7006C81B636F511B8DBBC;317.
  ) 
 Here is how much of TeX's memory you used:
- 22484 strings out of 477985
- 438121 string characters out of 5840058
- 1859388 words of memory out of 5000000
- 42170 multiletter control sequences out of 15000+600000
+ 23395 strings out of 477985
+ 458954 string characters out of 5840058
+ 1863388 words of memory out of 5000000
+ 43017 multiletter control sequences out of 15000+600000
  527034 words of font info for 85 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 128i,15n,122p,488b,599s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on build/main.pdf (6 pages, 154059 bytes).
+ 128i,15n,122p,488b,641s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on build/main.pdf (20 pages, 343439 bytes).
 PDF statistics:
- 318 PDF objects out of 1000 (max. 8388607)
- 267 compressed objects within 3 object streams
- 15 named destinations out of 1000 (max. 500000)
- 114 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 471 PDF objects out of 1000 (max. 8388607)
+ 387 compressed objects within 4 object streams
+ 45 named destinations out of 1000 (max. 500000)
+ 162 words of extra memory for PDF output out of 10000 (max. 10000000)
 

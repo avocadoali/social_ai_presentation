@@ -8,7 +8,7 @@
 \documentclass[shortpres,aspectratio=43]{beamer}
 %\documentclass[shortpres,aspectratio=169]{beamer}
 \usetheme{CambridgeUS}
-
+\usepackage{svg}
 
 \setbeamertemplate{footline}
 {
@@ -87,6 +87,19 @@ Prediction for Autonomous Driving}
 
 \date{January~06,~2024}
 
+
+% Print this at the beginning of each section
+\AtBeginSection[]
+{
+  \begin{frame}
+    \frametitle{Agenda}
+    \tableofcontents[currentsection]
+  \end{frame}
+}
+
+
+
+
 %---------------------------------------------------------------------
 \begin{document}
 
@@ -104,11 +117,15 @@ Prediction for Autonomous Driving}
 \end{frame}
 
 \begin{frame}
-  \frametitle{Gliederung}
+  \frametitle{Agenda}
   \tableofcontents
 \end{frame}
-  
 
+\input{sections/method.tex}
+
+%\input{sections/motivation.tex}
+%\input{sections/results.tex}
+%\input{sections/future_work.tex}
 \input{sections/test}
 
 
