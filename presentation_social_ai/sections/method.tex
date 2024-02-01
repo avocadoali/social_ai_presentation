@@ -8,61 +8,24 @@
 \subsection{Integration Model}
 
 
-\begin{frame}
-  \frametitle{Ballistic Integration Model }
-
-    Distance and Velocity Equations:
-    \begin{columns}[c]
-        \begin{column}{0.5\hsize}\centering
-        $$ \small s(k+1) = s(k) + dt \cdot v(k) + \frac{dt^2}{2} a(k) $$    
-        \end{column}
-
-        \begin{column}{0.5\hsize}
-        $$ \small v(k+1) = v(k) + dt \cdot a(k) $$
-        \end{column}
-    \end{columns}
- 
-    \hfil
-
-    \hfil
-
-    \hfil
-
-\onslide<2>{
-
-    Acceleration Equations:
-    \begin{columns}[c]
-        \begin{column}{0.5\hsize}
-            \centering
-            $$a(k) = \frac{2}{dt^2} \Bigl( s(k+1) - s(k) - dt \cdot v(k) \Bigr)$$
-        \end{column}
-
-        \begin{column}{0.5\hsize}
-            \centering
-            $$ a(k) = \frac{1}{dt} \Bigl( v(k+1) - v(k) \Bigr)$$
-        \end{column}
-    \end{columns}
- }
-\end{frame}
-
 
 \begin{frame}
   \frametitle{Ballistic Integration Model }
 
     Distance and Velocity Equations:
-    \begin{align}
-    s(k+1) &= s(k) + dt \cdot v(k) + \frac{dt^2}{2} a(k) \\
-    v(k+1) &= v(k) + dt \cdot a(k)
-    \end{align}
+    \begin{align*}
+        s(k+1) &= s(k) + dt \cdot v(k) + \frac{dt^2}{2} a(k) \\
+        v(k+1) &= v(k) + dt \cdot a(k)
+    \end{align*}
 
     \hfil
 \onslide<2>{
 
     Acceleration Equations:
-    \begin{align}
+    \begin{align*}
     a(k) &= \frac{2}{dt^2} \Bigl( s(k+1) - s(k) - dt \cdot v(k) \Bigr)\\
     a(k) &= \frac{1}{dt} \Bigl( v(k+1) - v(k) \Bigr)
-    \end{align}
+    \end{align*}
 }
 
 \end{frame}
@@ -74,19 +37,19 @@
   \frametitle{Our Integration Model }
 
     Distance and Velocity Equations:
-    \begin{align}
+    \begin{align*}
     s(t+1) &= s(t) + dt \cdot v(t)+ c_3 a(t) + c_4 a(t-1) \\
     v(t+1) &= v(t) + c_1 a(t) + c_2a(t-1)
-    \end{align}
+    \end{align*}
 
     \hfil
 \onslide<2>{
 
     Acceleration Equations:
-    \begin{align}
+    \begin{align*}
     a(k) &= - \overline c_1 a(k-1)  + \overline c_2 \bigl( s(k+1) - s(k) - dt \cdot  v(k)\bigr)\\
     a(k) &= - \overline c_3 a(k-1)  + \overline c_4 \bigl( v(k+1) - v(k) \bigr) 
-    \end{align}
+    \end{align*}
 }
 
 \end{frame}

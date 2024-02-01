@@ -9,11 +9,6 @@
 %\documentclass[shortpres,aspectratio=169]{beamer}
 \usetheme{CambridgeUS}
 \usepackage{svg}
-%Graphics and Videos
-\usepackage{graphicx} %The mode "LaTeX => PDF" allows the following formats: .jpg  .png  .pdf  .mps
-\graphicspath{{./PresentationPictures/}} %Where the figures folder is located
-\usepackage{media9}
-\addmediapath{./Movies/}
 
 \setbeamertemplate{footline}
 {
@@ -94,11 +89,11 @@ Prediction for Autonomous Driving}
 
 
 % Print this at the beginning of each section
-\AtBeginSection[]
+\AtBeginSubsection[]
 {
   \begin{frame}
     \frametitle{Agenda}
-    \tableofcontents[currentsection]
+    \tableofcontents[currentsubsection]
   \end{frame}
 }
 
