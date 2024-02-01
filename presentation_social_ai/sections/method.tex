@@ -10,16 +10,16 @@
 
 
 \begin{frame}
-  \frametitle{Ballistic Integration Model }
-
-    Distance and Velocity Equations:
+  \frametitle{Previous Integration Model }
+    Distance and Velocity Equations (Ballistic Integration):
+\onslide<2, 3, 4>{
     \begin{align*}
         s(k+1) &= s(k) + dt \cdot v(k) + \frac{dt^2}{2} a(k) \\
         v(k+1) &= v(k) + dt \cdot a(k)
     \end{align*}
 
-    \hfil
-\onslide<2>{
+}
+\onslide<3, 4>{
 
     Acceleration Equations:
     \begin{align*}
@@ -27,6 +27,12 @@
     a(k) &= \frac{1}{dt} \Bigl( v(k+1) - v(k) \Bigr)
     \end{align*}
 }
+\onslide<4>{
+
+\textbf{Problem:} Accelerations dont add up!
+
+}
+
 
 \end{frame}
 
@@ -35,17 +41,18 @@
 
 \begin{frame}
   \frametitle{Our Integration Model }
-
-    Distance and Velocity Equations:
+    Our Distance and Velocity Equations:
+\onslide<2, 3>{
     \begin{align*}
     s(t+1) &= s(t) + dt \cdot v(t)+ c_3 a(t) + c_4 a(t-1) \\
     v(t+1) &= v(t) + c_1 a(t) + c_2a(t-1)
     \end{align*}
 
     \hfil
-\onslide<2>{
+}
+\onslide<3>{
 
-    Acceleration Equations:
+    Our Acceleration Equations:
     \begin{align*}
     a(k) &= - \overline c_1 a(k-1)  + \overline c_2 \bigl( s(k+1) - s(k) - dt \cdot  v(k)\bigr)\\
     a(k) &= - \overline c_3 a(k-1)  + \overline c_4 \bigl( v(k+1) - v(k) \bigr) 
