@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2024.1.26)  1 FEB 2024 14:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2024.1.26)  1 FEB 2024 17:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -760,14 +760,14 @@ Package epstopdf Info: Source file: <./figures/TUM_Logo_weiss_e.eps>
 (epstopdf)             Command: <repstopdf --outfile=./figures/TUM_Logo_weiss_e-eps-converted-to.pdf ./figures/TUM_Logo_weiss_e.eps>
 (epstopdf)             \includegraphics on input line 122.
 Package epstopdf Info: Output file is already uptodate.
-<./figures/TUM_Logo_weiss_e-eps-converted-to.pdf, id=84, 742.775pt x 391.4625pt>
+<./figures/TUM_Logo_weiss_e-eps-converted-to.pdf, id=74, 742.775pt x 391.4625pt>
 File: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf>
 Package pdftex.def Info: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf  used on input line 122.
 (pdftex.def)             Requested size: 35.0895pt x 18.49411pt.
  [2
 
- <./figures/TUM_Logo_weiss_e-eps-converted-to.pdf>] (./sections/motivation.tex) (./sections/method.tex (build/main.toc)
+ <./figures/TUM_Logo_weiss_e-eps-converted-to.pdf>] (./sections/method.tex (build/main.toc)
 Package epstopdf Info: Source file: <./figures/TUM_Logo_weiss_e.eps>
 (epstopdf)                    date: 2024-01-25 15:58:42
 (epstopdf)                    size: 1854822 bytes
@@ -892,6 +892,11 @@ Package pdftex.def Info: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf  used o
  [9
 
 ]
+<figures/graphs/Acceleration Equivalence (Ballistic integration).png, id=163, 505.89pt x 505.89pt>
+File: figures/graphs/Acceleration Equivalence (Ballistic integration).png Graphic file (type png)
+<use figures/graphs/Acceleration Equivalence (Ballistic integration).png>
+Package pdftex.def Info: figures/graphs/Acceleration Equivalence (Ballistic integration).png  used on input line 45.
+(pdftex.def)             Requested size: 222.48985pt x 222.49193pt.
 Package epstopdf Info: Source file: <./figures/TUM_Logo_weiss_e.eps>
 (epstopdf)                    date: 2024-01-25 15:58:42
 (epstopdf)                    size: 1854822 bytes
@@ -899,15 +904,19 @@ Package epstopdf Info: Source file: <./figures/TUM_Logo_weiss_e.eps>
 (epstopdf)                    date: 2024-01-25 15:59:25
 (epstopdf)                    size: 2561 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figures/TUM_Logo_weiss_e-eps-converted-to.pdf ./figures/TUM_Logo_weiss_e.eps>
-(epstopdf)             \includegraphics on input line 60.
+(epstopdf)             \includegraphics on input line 45.
 Package epstopdf Info: Output file is already uptodate.
 File: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf>
-Package pdftex.def Info: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf  used on input line 60.
+Package pdftex.def Info: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf  used on input line 45.
 (pdftex.def)             Requested size: 35.0895pt x 18.49411pt.
- [10
 
-]
+Overfull \vbox (12.48795pt too high) detected at line 45
+ []
+
+[10
+
+ <./figures/graphs/Acceleration Equivalence (Ballistic integration).png>]
 Package epstopdf Info: Source file: <./figures/TUM_Logo_weiss_e.eps>
 (epstopdf)                    date: 2024-01-25 15:58:42
 (epstopdf)                    size: 1854822 bytes
@@ -915,11 +924,11 @@ Package epstopdf Info: Source file: <./figures/TUM_Logo_weiss_e.eps>
 (epstopdf)                    date: 2024-01-25 15:59:25
 (epstopdf)                    size: 2561 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figures/TUM_Logo_weiss_e-eps-converted-to.pdf ./figures/TUM_Logo_weiss_e.eps>
-(epstopdf)             \includegraphics on input line 60.
+(epstopdf)             \includegraphics on input line 66.
 Package epstopdf Info: Output file is already uptodate.
 File: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf>
-Package pdftex.def Info: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf  used on input line 60.
+Package pdftex.def Info: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf  used on input line 66.
 (pdftex.def)             Requested size: 35.0895pt x 18.49411pt.
  [11
 
@@ -931,11 +940,11 @@ Package epstopdf Info: Source file: <./figures/TUM_Logo_weiss_e.eps>
 (epstopdf)                    date: 2024-01-25 15:59:25
 (epstopdf)                    size: 2561 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figures/TUM_Logo_weiss_e-eps-converted-to.pdf ./figures/TUM_Logo_weiss_e.eps>
-(epstopdf)             \includegraphics on input line 60.
+(epstopdf)             \includegraphics on input line 66.
 Package epstopdf Info: Output file is already uptodate.
 File: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf>
-Package pdftex.def Info: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf  used on input line 60.
+Package pdftex.def Info: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf  used on input line 66.
 (pdftex.def)             Requested size: 35.0895pt x 18.49411pt.
  [12
 
@@ -947,11 +956,11 @@ Package epstopdf Info: Source file: <./figures/TUM_Logo_weiss_e.eps>
 (epstopdf)                    date: 2024-01-25 15:59:25
 (epstopdf)                    size: 2561 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figures/TUM_Logo_weiss_e-eps-converted-to.pdf ./figures/TUM_Logo_weiss_e.eps>
-(epstopdf)             \includegraphics on input line 98.
+(epstopdf)             \includegraphics on input line 66.
 Package epstopdf Info: Output file is already uptodate.
 File: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf>
-Package pdftex.def Info: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf  used on input line 98.
+Package pdftex.def Info: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf  used on input line 66.
 (pdftex.def)             Requested size: 35.0895pt x 18.49411pt.
  [13
 
@@ -963,13 +972,29 @@ Package epstopdf Info: Source file: <./figures/TUM_Logo_weiss_e.eps>
 (epstopdf)                    date: 2024-01-25 15:59:25
 (epstopdf)                    size: 2561 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figures/TUM_Logo_weiss_e-eps-converted-to.pdf ./figures/TUM_Logo_weiss_e.eps>
-(epstopdf)             \includegraphics on input line 98.
+(epstopdf)             \includegraphics on input line 105.
 Package epstopdf Info: Output file is already uptodate.
 File: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf>
-Package pdftex.def Info: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf  used on input line 98.
+Package pdftex.def Info: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf  used on input line 105.
 (pdftex.def)             Requested size: 35.0895pt x 18.49411pt.
  [14
+
+]
+Package epstopdf Info: Source file: <./figures/TUM_Logo_weiss_e.eps>
+(epstopdf)                    date: 2024-01-25 15:58:42
+(epstopdf)                    size: 1854822 bytes
+(epstopdf)             Output file: <./figures/TUM_Logo_weiss_e-eps-converted-to.pdf>
+(epstopdf)                    date: 2024-01-25 15:59:25
+(epstopdf)                    size: 2561 bytes
+(epstopdf)             Command: <repstopdf --outfile=./figures/TUM_Logo_weiss_e-eps-converted-to.pdf ./figures/TUM_Logo_weiss_e.eps>
+(epstopdf)             \includegraphics on input line 105.
+Package epstopdf Info: Output file is already uptodate.
+File: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf Graphic file (type pdf)
+<use ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf>
+Package pdftex.def Info: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf  used on input line 105.
+(pdftex.def)             Requested size: 35.0895pt x 18.49411pt.
+ [15
 
 ]) (./sections/results.tex (build/main.toc)
 Package epstopdf Info: Source file: <./figures/TUM_Logo_weiss_e.eps>
@@ -985,9 +1010,9 @@ File: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf>
 Package pdftex.def Info: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf  used on input line 4.
 (pdftex.def)             Requested size: 35.0895pt x 18.49411pt.
- [15
+ [16
 
-] [16
+] [17
 
 ] (build/main.toc)
 Package epstopdf Info: Source file: <./figures/TUM_Logo_weiss_e.eps>
@@ -1003,14 +1028,9 @@ File: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf>
 Package pdftex.def Info: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf  used on input line 10.
 (pdftex.def)             Requested size: 35.0895pt x 18.49411pt.
- [17
+ [18
 
 ]
-<figures/graphs/Linear Regression Results.png, id=256, 505.89pt x 505.89pt>
-File: figures/graphs/Linear Regression Results.png Graphic file (type png)
-<use figures/graphs/Linear Regression Results.png>
-Package pdftex.def Info: figures/graphs/Linear Regression Results.png  used on input line 19.
-(pdftex.def)             Requested size: 205.37926pt x 205.37836pt.
 Package epstopdf Info: Source file: <./figures/TUM_Logo_weiss_e.eps>
 (epstopdf)                    date: 2024-01-25 15:58:42
 (epstopdf)                    size: 1854822 bytes
@@ -1018,35 +1038,25 @@ Package epstopdf Info: Source file: <./figures/TUM_Logo_weiss_e.eps>
 (epstopdf)                    date: 2024-01-25 15:59:25
 (epstopdf)                    size: 2561 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figures/TUM_Logo_weiss_e-eps-converted-to.pdf ./figures/TUM_Logo_weiss_e.eps>
-(epstopdf)             \includegraphics on input line 19.
+(epstopdf)             \includegraphics on input line 45.
 Package epstopdf Info: Output file is already uptodate.
 File: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf>
-Package pdftex.def Info: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf  used on input line 19.
-(pdftex.def)             Requested size: 35.0895pt x 18.49411pt.
-
-Overfull \vbox (11.71187pt too high) detected at line 19
- []
-
-[18
-
- <./figures/graphs/Linear Regression Results.png>]
-Package epstopdf Info: Source file: <./figures/TUM_Logo_weiss_e.eps>
-(epstopdf)                    date: 2024-01-25 15:58:42
-(epstopdf)                    size: 1854822 bytes
-(epstopdf)             Output file: <./figures/TUM_Logo_weiss_e-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-01-25 15:59:25
-(epstopdf)                    size: 2561 bytes
-(epstopdf)             Command: <repstopdf --outfile=./figures/TUM_Logo_weiss_e-eps-converted-to.pdf ./figures/TUM_Logo_weiss_e.eps>
-(epstopdf)             \includegraphics on input line 25.
-Package epstopdf Info: Output file is already uptodate.
-File: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf Graphic file (type pdf)
-<use ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf>
-Package pdftex.def Info: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf  used on input line 25.
+Package pdftex.def Info: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf  used on input line 45.
 (pdftex.def)             Requested size: 35.0895pt x 18.49411pt.
  [19
 
-]) (./sections/future_work.tex (build/main.toc)
+]
+<figures/graphs/Prediction of the Acceleration (Distance Formula).png, id=250, 505.89pt x 505.89pt>
+File: figures/graphs/Prediction of the Acceleration (Distance Formula).png Graphic file (type png)
+<use figures/graphs/Prediction of the Acceleration (Distance Formula).png>
+Package pdftex.def Info: figures/graphs/Prediction of the Acceleration (Distance Formula).png  used on input line 59.
+(pdftex.def)             Requested size: 167.72658pt x 167.72385pt.
+<figures/graphs/Prediction of the Acceleration (Velocity formula).png, id=251, 505.89pt x 505.89pt>
+File: figures/graphs/Prediction of the Acceleration (Velocity formula).png Graphic file (type png)
+<use figures/graphs/Prediction of the Acceleration (Velocity formula).png>
+Package pdftex.def Info: figures/graphs/Prediction of the Acceleration (Velocity formula).png  used on input line 59.
+(pdftex.def)             Requested size: 167.72658pt x 167.72385pt.
 Package epstopdf Info: Source file: <./figures/TUM_Logo_weiss_e.eps>
 (epstopdf)                    date: 2024-01-25 15:58:42
 (epstopdf)                    size: 1854822 bytes
@@ -1054,15 +1064,24 @@ Package epstopdf Info: Source file: <./figures/TUM_Logo_weiss_e.eps>
 (epstopdf)                    date: 2024-01-25 15:59:25
 (epstopdf)                    size: 2561 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figures/TUM_Logo_weiss_e-eps-converted-to.pdf ./figures/TUM_Logo_weiss_e.eps>
-(epstopdf)             \includegraphics on input line 7.
+(epstopdf)             \includegraphics on input line 59.
 Package epstopdf Info: Output file is already uptodate.
 File: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf>
-Package pdftex.def Info: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf  used on input line 7.
+Package pdftex.def Info: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf  used on input line 59.
 (pdftex.def)             Requested size: 35.0895pt x 18.49411pt.
  [20
 
-] (build/main.toc)
+ <./figures/graphs/Prediction of the Acceleration (Distance Formula).png> <./figures/graphs/Prediction of the Acceleration (Velocity formula).png>]
+File: figures/graphs/Acceleration Equivalence (Ballistic integration).png Graphic file (type png)
+<use figures/graphs/Acceleration Equivalence (Ballistic integration).png>
+Package pdftex.def Info: figures/graphs/Acceleration Equivalence (Ballistic integration).png  used on input line 75.
+(pdftex.def)             Requested size: 167.72658pt x 167.72385pt.
+<figures/graphs/Acceleration Equivalence (Our integration model).png, id=261, 505.89pt x 505.89pt>
+File: figures/graphs/Acceleration Equivalence (Our integration model).png Graphic file (type png)
+<use figures/graphs/Acceleration Equivalence (Our integration model).png>
+Package pdftex.def Info: figures/graphs/Acceleration Equivalence (Our integration model).png  used on input line 75.
+(pdftex.def)             Requested size: 167.72658pt x 167.72385pt.
 Package epstopdf Info: Source file: <./figures/TUM_Logo_weiss_e.eps>
 (epstopdf)                    date: 2024-01-25 15:58:42
 (epstopdf)                    size: 1854822 bytes
@@ -1070,15 +1089,15 @@ Package epstopdf Info: Source file: <./figures/TUM_Logo_weiss_e.eps>
 (epstopdf)                    date: 2024-01-25 15:59:25
 (epstopdf)                    size: 2561 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figures/TUM_Logo_weiss_e-eps-converted-to.pdf ./figures/TUM_Logo_weiss_e.eps>
-(epstopdf)             \includegraphics on input line 13.
+(epstopdf)             \includegraphics on input line 75.
 Package epstopdf Info: Output file is already uptodate.
 File: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf>
-Package pdftex.def Info: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf  used on input line 13.
+Package pdftex.def Info: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf  used on input line 75.
 (pdftex.def)             Requested size: 35.0895pt x 18.49411pt.
  [21
 
-]
+ <./figures/graphs/Acceleration Equivalence (Our integration model).png>]
 Package epstopdf Info: Source file: <./figures/TUM_Logo_weiss_e.eps>
 (epstopdf)                    date: 2024-01-25 15:58:42
 (epstopdf)                    size: 1854822 bytes
@@ -1086,50 +1105,18 @@ Package epstopdf Info: Source file: <./figures/TUM_Logo_weiss_e.eps>
 (epstopdf)                    date: 2024-01-25 15:59:25
 (epstopdf)                    size: 2561 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figures/TUM_Logo_weiss_e-eps-converted-to.pdf ./figures/TUM_Logo_weiss_e.eps>
-(epstopdf)             \includegraphics on input line 39.
+(epstopdf)             \includegraphics on input line 86.
 Package epstopdf Info: Output file is already uptodate.
 File: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf>
-Package pdftex.def Info: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf  used on input line 39.
+Package pdftex.def Info: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf  used on input line 86.
 (pdftex.def)             Requested size: 35.0895pt x 18.49411pt.
  [22
 
-]
-Package epstopdf Info: Source file: <./figures/TUM_Logo_weiss_e.eps>
-(epstopdf)                    date: 2024-01-25 15:58:42
-(epstopdf)                    size: 1854822 bytes
-(epstopdf)             Output file: <./figures/TUM_Logo_weiss_e-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-01-25 15:59:25
-(epstopdf)                    size: 2561 bytes
-(epstopdf)             Command: <repstopdf --outfile=./figures/TUM_Logo_weiss_e-eps-converted-to.pdf ./figures/TUM_Logo_weiss_e.eps>
-(epstopdf)             \includegraphics on input line 39.
-Package epstopdf Info: Output file is already uptodate.
-File: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf Graphic file (type pdf)
-<use ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf>
-Package pdftex.def Info: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf  used on input line 39.
-(pdftex.def)             Requested size: 35.0895pt x 18.49411pt.
- [23
-
-]
-Package epstopdf Info: Source file: <./figures/TUM_Logo_weiss_e.eps>
-(epstopdf)                    date: 2024-01-25 15:58:42
-(epstopdf)                    size: 1854822 bytes
-(epstopdf)             Output file: <./figures/TUM_Logo_weiss_e-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-01-25 15:59:25
-(epstopdf)                    size: 2561 bytes
-(epstopdf)             Command: <repstopdf --outfile=./figures/TUM_Logo_weiss_e-eps-converted-to.pdf ./figures/TUM_Logo_weiss_e.eps>
-(epstopdf)             \includegraphics on input line 39.
-Package epstopdf Info: Output file is already uptodate.
-File: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf Graphic file (type pdf)
-<use ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf>
-Package pdftex.def Info: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf  used on input line 39.
-(pdftex.def)             Requested size: 35.0895pt x 18.49411pt.
- [24
-
-]) [25
+]) [23
 
 ] (./sections/test.tex
-<figures/acceleration_mod/acceleration_mod_dist_y.png, id=330, 505.89pt x 505.89pt>
+<figures/acceleration_mod/acceleration_mod_dist_y.png, id=287, 505.89pt x 505.89pt>
 File: figures/acceleration_mod/acceleration_mod_dist_y.png Graphic file (type png)
 <use figures/acceleration_mod/acceleration_mod_dist_y.png>
 Package pdftex.def Info: figures/acceleration_mod/acceleration_mod_dist_y.png  used on input line 8.
@@ -1147,10 +1134,10 @@ File: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf>
 Package pdftex.def Info: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf  used on input line 8.
 (pdftex.def)             Requested size: 35.0895pt x 18.49411pt.
- [26
+ [24
 
  <./figures/acceleration_mod/acceleration_mod_dist_y.png>]
-<figures/acceleration_mod/acceleration_mod_dist_x.png, id=338, 505.89pt x 505.89pt>
+<figures/acceleration_mod/acceleration_mod_dist_x.png, id=296, 505.89pt x 505.89pt>
 File: figures/acceleration_mod/acceleration_mod_dist_x.png Graphic file (type png)
 <use figures/acceleration_mod/acceleration_mod_dist_x.png>
 Package pdftex.def Info: figures/acceleration_mod/acceleration_mod_dist_x.png  used on input line 17.
@@ -1168,10 +1155,10 @@ File: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf>
 Package pdftex.def Info: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf  used on input line 17.
 (pdftex.def)             Requested size: 35.0895pt x 18.49411pt.
- [27
+ [25
 
  <./figures/acceleration_mod/acceleration_mod_dist_x.png>]
-<figures/acceleration_mod/acceleration_mod_vel_y.png, id=346, 505.89pt x 505.89pt>
+<figures/acceleration_mod/acceleration_mod_vel_y.png, id=306, 505.89pt x 505.89pt>
 File: figures/acceleration_mod/acceleration_mod_vel_y.png Graphic file (type png)
 <use figures/acceleration_mod/acceleration_mod_vel_y.png>
 Package pdftex.def Info: figures/acceleration_mod/acceleration_mod_vel_y.png  used on input line 26.
@@ -1189,10 +1176,10 @@ File: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf>
 Package pdftex.def Info: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf  used on input line 26.
 (pdftex.def)             Requested size: 35.0895pt x 18.49411pt.
- [28
+ [26
 
  <./figures/acceleration_mod/acceleration_mod_vel_y.png>]
-<figures/acceleration_mod/acceleration_mod_vel_x.png, id=354, 505.89pt x 505.89pt>
+<figures/acceleration_mod/acceleration_mod_vel_x.png, id=315, 505.89pt x 505.89pt>
 File: figures/acceleration_mod/acceleration_mod_vel_x.png Graphic file (type png)
 <use figures/acceleration_mod/acceleration_mod_vel_x.png>
 Package pdftex.def Info: figures/acceleration_mod/acceleration_mod_vel_x.png  used on input line 35.
@@ -1210,7 +1197,7 @@ File: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf>
 Package pdftex.def Info: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf  used on input line 35.
 (pdftex.def)             Requested size: 35.0895pt x 18.49411pt.
- [29
+ [27
 
  <./figures/acceleration_mod/acceleration_mod_vel_x.png>]
 Package epstopdf Info: Source file: <./figures/snapshots_blue.eps>
@@ -1222,7 +1209,7 @@ Package epstopdf Info: Source file: <./figures/snapshots_blue.eps>
 (epstopdf)             Command: <repstopdf --outfile=./figures/snapshots_blue-eps-converted-to.pdf ./figures/snapshots_blue.eps>
 (epstopdf)             \includegraphics on input line 54.
 Package epstopdf Info: Output file is already uptodate.
-<./figures/snapshots_blue-eps-converted-to.pdf, id=362, 298.11375pt x 223.83624pt>
+<./figures/snapshots_blue-eps-converted-to.pdf, id=324, 298.11375pt x 223.83624pt>
 File: ./figures/snapshots_blue-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures/snapshots_blue-eps-converted-to.pdf>
 Package pdftex.def Info: ./figures/snapshots_blue-eps-converted-to.pdf  used on input line 54.
@@ -1240,7 +1227,7 @@ File: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf>
 Package pdftex.def Info: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf  used on input line 54.
 (pdftex.def)             Requested size: 35.0895pt x 18.49411pt.
- [30
+ [28
 
  <./figures/snapshots_blue-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <./figures/Scenario_Intersection_Occ_1,5-2,0s_final.eps>
@@ -1252,7 +1239,7 @@ Package epstopdf Info: Source file: <./figures/Scenario_Intersection_Occ_1,5-2,0
 (epstopdf)             Command: <repstopdf --outfile=./figures/Scenario_Intersection_Occ_1,5-2,0s_final-eps-converted-to.pdf ./figures/Scenario_Intersection_Occ_1,5-2,0s_final.eps>
 (epstopdf)             \includegraphics on input line 84.
 Package epstopdf Info: Output file is already uptodate.
-<./figures/Scenario_Intersection_Occ_1,5-2,0s_final-eps-converted-to.pdf, id=563, 257.96375pt x 354.32375pt>
+<./figures/Scenario_Intersection_Occ_1,5-2,0s_final-eps-converted-to.pdf, id=526, 257.96375pt x 354.32375pt>
 File: ./figures/Scenario_Intersection_Occ_1,5-2,0s_final-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures/Scenario_Intersection_Occ_1,5-2,0s_final-eps-converted-to.pdf>
 Package pdftex.def Info: ./figures/Scenario_Intersection_Occ_1,5-2,0s_final-eps-converted-to.pdf  used on input line 84.
@@ -1270,7 +1257,7 @@ File: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf>
 Package pdftex.def Info: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf  used on input line 84.
 (pdftex.def)             Requested size: 35.0895pt x 18.49411pt.
- [31
+ [29
 
  <./figures/Scenario_Intersection_Occ_1,5-2,0s_final-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <./figures/TUM_Logo_weiss_e.eps>
@@ -1286,7 +1273,7 @@ File: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf>
 Package pdftex.def Info: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf  used on input line 94.
 (pdftex.def)             Requested size: 35.0895pt x 18.49411pt.
- [32
+ [30
 
 ]
 
@@ -1295,12 +1282,12 @@ LaTeX Font Warning: Command \small invalid in math mode on input line 103.
 
 LaTeX Font Warning: Command \small invalid in math mode on input line 107.
 
-<figures/graphs/First model.png, id=586, 505.89pt x 505.89pt>
+<figures/graphs/First model.png, id=550, 505.89pt x 505.89pt>
 File: figures/graphs/First model.png Graphic file (type png)
 <use figures/graphs/First model.png>
 Package pdftex.def Info: figures/graphs/First model.png  used on input line 147.
 (pdftex.def)             Requested size: 154.03183pt x 154.0299pt.
-<figures/graphs/Second model.png, id=587, 505.89pt x 505.89pt>
+<figures/graphs/Second model.png, id=551, 505.89pt x 505.89pt>
 File: figures/graphs/Second model.png Graphic file (type png)
 <use figures/graphs/Second model.png>
 Package pdftex.def Info: figures/graphs/Second model.png  used on input line 147.
@@ -1321,9 +1308,9 @@ Package pdftex.def Info: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf  used o
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [33
+ [31
 
-] [34 <./figures/graphs/First model.png> <./figures/graphs/Second model.png>]
+] [32 <./figures/graphs/First model.png> <./figures/graphs/Second model.png>]
 Package epstopdf Info: Source file: <./figures/TUM_Logo_weiss_e.eps>
 (epstopdf)                    date: 2024-01-25 15:58:42
 (epstopdf)                    size: 1854822 bytes
@@ -1336,6 +1323,38 @@ Package epstopdf Info: Output file is already uptodate.
 File: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf>
 Package pdftex.def Info: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf  used on input line 152.
+(pdftex.def)             Requested size: 35.0895pt x 18.49411pt.
+ [33
+
+]
+Package epstopdf Info: Source file: <./figures/TUM_Logo_weiss_e.eps>
+(epstopdf)                    date: 2024-01-25 15:58:42
+(epstopdf)                    size: 1854822 bytes
+(epstopdf)             Output file: <./figures/TUM_Logo_weiss_e-eps-converted-to.pdf>
+(epstopdf)                    date: 2024-01-25 15:59:25
+(epstopdf)                    size: 2561 bytes
+(epstopdf)             Command: <repstopdf --outfile=./figures/TUM_Logo_weiss_e-eps-converted-to.pdf ./figures/TUM_Logo_weiss_e.eps>
+(epstopdf)             \includegraphics on input line 174.
+Package epstopdf Info: Output file is already uptodate.
+File: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf Graphic file (type pdf)
+<use ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf>
+Package pdftex.def Info: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf  used on input line 174.
+(pdftex.def)             Requested size: 35.0895pt x 18.49411pt.
+ [34
+
+]
+Package epstopdf Info: Source file: <./figures/TUM_Logo_weiss_e.eps>
+(epstopdf)                    date: 2024-01-25 15:58:42
+(epstopdf)                    size: 1854822 bytes
+(epstopdf)             Output file: <./figures/TUM_Logo_weiss_e-eps-converted-to.pdf>
+(epstopdf)                    date: 2024-01-25 15:59:25
+(epstopdf)                    size: 2561 bytes
+(epstopdf)             Command: <repstopdf --outfile=./figures/TUM_Logo_weiss_e-eps-converted-to.pdf ./figures/TUM_Logo_weiss_e.eps>
+(epstopdf)             \includegraphics on input line 174.
+Package epstopdf Info: Output file is already uptodate.
+File: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf Graphic file (type pdf)
+<use ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf>
+Package pdftex.def Info: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf  used on input line 174.
 (pdftex.def)             Requested size: 35.0895pt x 18.49411pt.
  [35
 
@@ -1363,11 +1382,11 @@ Package epstopdf Info: Source file: <./figures/TUM_Logo_weiss_e.eps>
 (epstopdf)                    date: 2024-01-25 15:59:25
 (epstopdf)                    size: 2561 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figures/TUM_Logo_weiss_e-eps-converted-to.pdf ./figures/TUM_Logo_weiss_e.eps>
-(epstopdf)             \includegraphics on input line 174.
+(epstopdf)             \includegraphics on input line 208.
 Package epstopdf Info: Output file is already uptodate.
 File: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf>
-Package pdftex.def Info: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf  used on input line 174.
+Package pdftex.def Info: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf  used on input line 208.
 (pdftex.def)             Requested size: 35.0895pt x 18.49411pt.
  [37
 
@@ -1379,31 +1398,24 @@ Package epstopdf Info: Source file: <./figures/TUM_Logo_weiss_e.eps>
 (epstopdf)                    date: 2024-01-25 15:59:25
 (epstopdf)                    size: 2561 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figures/TUM_Logo_weiss_e-eps-converted-to.pdf ./figures/TUM_Logo_weiss_e.eps>
-(epstopdf)             \includegraphics on input line 174.
+(epstopdf)             \includegraphics on input line 208.
 Package epstopdf Info: Output file is already uptodate.
 File: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf>
-Package pdftex.def Info: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf  used on input line 174.
+Package pdftex.def Info: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf  used on input line 208.
 (pdftex.def)             Requested size: 35.0895pt x 18.49411pt.
  [38
 
 ]
-Package epstopdf Info: Source file: <./figures/TUM_Logo_weiss_e.eps>
-(epstopdf)                    date: 2024-01-25 15:58:42
-(epstopdf)                    size: 1854822 bytes
-(epstopdf)             Output file: <./figures/TUM_Logo_weiss_e-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-01-25 15:59:25
-(epstopdf)                    size: 2561 bytes
-(epstopdf)             Command: <repstopdf --outfile=./figures/TUM_Logo_weiss_e-eps-converted-to.pdf ./figures/TUM_Logo_weiss_e.eps>
-(epstopdf)             \includegraphics on input line 208.
-Package epstopdf Info: Output file is already uptodate.
-File: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf Graphic file (type pdf)
-<use ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf>
-Package pdftex.def Info: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf  used on input line 208.
-(pdftex.def)             Requested size: 35.0895pt x 18.49411pt.
- [39
+Underfull \hbox (badness 1365) in paragraph at lines 222--222
+[]\OT1/cmss/m/n/10.95 Accuracy of the pre-dic-tion for
+ []
 
-]
+<figures/graphs/Ballistic integration acceleration accuracy.png, id=615, 505.89pt x 505.89pt>
+File: figures/graphs/Ballistic integration acceleration accuracy.png Graphic file (type png)
+<use figures/graphs/Ballistic integration acceleration accuracy.png>
+Package pdftex.def Info: figures/graphs/Ballistic integration acceleration accuracy.png  used on input line 222.
+(pdftex.def)             Requested size: 154.03183pt x 154.0299pt.
 Package epstopdf Info: Source file: <./figures/TUM_Logo_weiss_e.eps>
 (epstopdf)                    date: 2024-01-25 15:58:42
 (epstopdf)                    size: 1854822 bytes
@@ -1411,15 +1423,60 @@ Package epstopdf Info: Source file: <./figures/TUM_Logo_weiss_e.eps>
 (epstopdf)                    date: 2024-01-25 15:59:25
 (epstopdf)                    size: 2561 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figures/TUM_Logo_weiss_e-eps-converted-to.pdf ./figures/TUM_Logo_weiss_e.eps>
-(epstopdf)             \includegraphics on input line 208.
+(epstopdf)             \includegraphics on input line 222.
 Package epstopdf Info: Output file is already uptodate.
 File: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf>
-Package pdftex.def Info: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf  used on input line 208.
+Package pdftex.def Info: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf  used on input line 222.
+(pdftex.def)             Requested size: 35.0895pt x 18.49411pt.
+[39
+
+ <./figures/graphs/Ballistic integration acceleration accuracy.png>]
+File: figures/graphs/Ballistic integration acceleration accuracy.png Graphic file (type png)
+<use figures/graphs/Ballistic integration acceleration accuracy.png>
+Package pdftex.def Info: figures/graphs/Ballistic integration acceleration accuracy.png  used on input line 233.
+(pdftex.def)             Requested size: 171.14764pt x 171.1512pt.
+Package epstopdf Info: Source file: <./figures/TUM_Logo_weiss_e.eps>
+(epstopdf)                    date: 2024-01-25 15:58:42
+(epstopdf)                    size: 1854822 bytes
+(epstopdf)             Output file: <./figures/TUM_Logo_weiss_e-eps-converted-to.pdf>
+(epstopdf)                    date: 2024-01-25 15:59:25
+(epstopdf)                    size: 2561 bytes
+(epstopdf)             Command: <repstopdf --outfile=./figures/TUM_Logo_weiss_e-eps-converted-to.pdf ./figures/TUM_Logo_weiss_e.eps>
+(epstopdf)             \includegraphics on input line 233.
+Package epstopdf Info: Output file is already uptodate.
+File: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf Graphic file (type pdf)
+<use ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf>
+Package pdftex.def Info: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf  used on input line 233.
 (pdftex.def)             Requested size: 35.0895pt x 18.49411pt.
  [40
 
-])
+]
+<figures/graphs/Linear Regression Results.png, id=632, 505.89pt x 505.89pt>
+File: figures/graphs/Linear Regression Results.png Graphic file (type png)
+<use figures/graphs/Linear Regression Results.png>
+Package pdftex.def Info: figures/graphs/Linear Regression Results.png  used on input line 242.
+(pdftex.def)             Requested size: 205.37926pt x 205.37836pt.
+Package epstopdf Info: Source file: <./figures/TUM_Logo_weiss_e.eps>
+(epstopdf)                    date: 2024-01-25 15:58:42
+(epstopdf)                    size: 1854822 bytes
+(epstopdf)             Output file: <./figures/TUM_Logo_weiss_e-eps-converted-to.pdf>
+(epstopdf)                    date: 2024-01-25 15:59:25
+(epstopdf)                    size: 2561 bytes
+(epstopdf)             Command: <repstopdf --outfile=./figures/TUM_Logo_weiss_e-eps-converted-to.pdf ./figures/TUM_Logo_weiss_e.eps>
+(epstopdf)             \includegraphics on input line 242.
+Package epstopdf Info: Output file is already uptodate.
+File: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf Graphic file (type pdf)
+<use ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf>
+Package pdftex.def Info: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf  used on input line 242.
+(pdftex.def)             Requested size: 35.0895pt x 18.49411pt.
+
+Overfull \vbox (11.71187pt too high) detected at line 242
+ []
+
+[41
+
+ <./figures/graphs/Linear Regression Results.png>])
 \tf@nav=\write7
 \openout7 = `main.nav'.
 
@@ -1431,21 +1488,21 @@ Package pdftex.def Info: ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf  used o
 
  (build/main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: F57DB7E5871F0C0C30699E74C256D1B6;1100.
+(rerunfilecheck)             Checksum: 34ACA9C48661A1F48CEC88B4143E7965;894.
  ) 
 Here is how much of TeX's memory you used:
- 23539 strings out of 477985
- 461192 string characters out of 5840058
+ 23558 strings out of 477985
+ 463288 string characters out of 5840058
  1863388 words of memory out of 5000000
- 43090 multiletter control sequences out of 15000+600000
+ 43114 multiletter control sequences out of 15000+600000
  527684 words of font info for 87 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 128i,16n,122p,488b,639s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on build/main.pdf (40 pages, 427789 bytes).
+ 128i,16n,122p,488b,641s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on build/main.pdf (41 pages, 629842 bytes).
 PDF statistics:
- 718 PDF objects out of 1000 (max. 8388607)
- 602 compressed objects within 7 object streams
+ 722 PDF objects out of 1000 (max. 8388607)
+ 594 compressed objects within 6 object streams
  91 named destinations out of 1000 (max. 500000)
- 225 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 234 words of extra memory for PDF output out of 10000 (max. 10000000)
 

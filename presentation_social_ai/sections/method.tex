@@ -21,10 +21,12 @@
 }
 \onslide<3, 4>{
 
-    Acceleration Equations:
+    \hfil
+
+    Acceleration Equations (Rearranged):
     \begin{align*}
-    a(k) &= \frac{2}{dt^2} \Bigl( s(k+1) - s(k) - dt \cdot v(k) \Bigr)\\
-    a(k) &= \frac{1}{dt} \Bigl( v(k+1) - v(k) \Bigr)
+    From \ distance: \ \ \ \ \ \  a(k) &= \frac{2}{dt^2} \Bigl( s(k+1) - s(k) - dt \cdot v(k) \Bigr)\\
+    From \ velocity: \ \ \ \ \ \ a(k) &= \frac{1}{dt} \Bigl( v(k+1) - v(k) \Bigr)
     \end{align*}
 }
 \onslide<4>{
@@ -32,11 +34,15 @@
 \textbf{Problem:} Accelerations don't add up!
 
 }
-
-
 \end{frame}
 
-
+\begin{frame}
+    \frametitle{Previous Integration Model - Accuracy}
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.65\textwidth]{figures/graphs/Acceleration Equivalence (Ballistic integration).png}
+    \end{figure}
+\end{frame}
 
 \begin{frame}
   \frametitle{Our Integration Model}
@@ -60,12 +66,10 @@
 \end{frame}
 
 \begin{frame}
-  \frametitle{Our Integration Model}
+  \frametitle{Our Integration Model - Matrix Form}
   \onslide<1->{
-    Model in matrix form:
-    \begin{center}
-     \scriptsize
-     \begin{align*}
+    Acceleration from Distance formula:
+    \begin{align*}
         \begin{bmatrix} a(k-1) \\ \end{bmatrix}
         &=
         \begin{bmatrix}
@@ -75,6 +79,10 @@
             \overline{\textcolor{red}{c_1}} \\
             \overline{\textcolor{red}{c_2}} \\
         \end{bmatrix} \\
+    \end{align*}
+
+    Acceleration from Velocity formula:
+    \begin{align*}
         \begin{bmatrix}
             a(k-1) \\ 
         \end{bmatrix}
@@ -86,11 +94,10 @@
             \overline{\textcolor{red}{c_3}} \\
             \overline{\textcolor{red}{c_4}} \\
         \end{bmatrix}
-     \end{align*}
-    \end{center}
+    \end{align*}
   }
 
-  \hfil
+    \hfil
 
   \onslide<2->{
     $\Rightarrow$ This can be solved using linear regression.

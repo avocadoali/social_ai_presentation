@@ -1387,10 +1387,6 @@ INPUT ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf
 INPUT ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf
 INPUT ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmss8.tfm
-INPUT ./sections/motivation.tex
-INPUT sections/motivation.tex
-INPUT ./sections/motivation.tex
-INPUT sections/motivation.tex
 INPUT ./sections/method.tex
 INPUT sections/method.tex
 INPUT ./sections/method.tex
@@ -1505,6 +1501,11 @@ INPUT ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf
 INPUT ./figures/TUM_Logo_weiss_e.eps
 INPUT ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf
 INPUT ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf
+INPUT ./figures/graphs/Acceleration Equivalence (Ballistic integration).png
+INPUT ./figures/graphs/Acceleration Equivalence (Ballistic integration).png
+INPUT figures/graphs/Acceleration Equivalence (Ballistic integration).png
+INPUT ./figures/graphs/Acceleration Equivalence (Ballistic integration).png
+INPUT ./figures/graphs/Acceleration Equivalence (Ballistic integration).png
 INPUT ./figures/TUM_Logo_weiss_e.eps
 INPUT ./figures/TUM_Logo_weiss_e.eps
 INPUT ./figures/TUM_Logo_weiss_e.eps
@@ -1535,11 +1536,16 @@ INPUT ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf
 INPUT ./figures/TUM_Logo_weiss_e.eps
 INPUT ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf
 INPUT ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf
-INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmss8.tfm
-INPUT /usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
-INPUT /usr/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
-INPUT /usr/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
-INPUT /usr/share/texmf-dist/fonts/tfm/public/sansmathaccent/mathkerncmssi8.tfm
+INPUT ./figures/TUM_Logo_weiss_e.eps
+INPUT ./figures/TUM_Logo_weiss_e.eps
+INPUT ./figures/TUM_Logo_weiss_e.eps
+INPUT ./figures/TUM_Logo_weiss_e.eps
+INPUT ./figures/TUM_Logo_weiss_e.eps
+INPUT ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf
+INPUT ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf
+INPUT ./figures/TUM_Logo_weiss_e.eps
+INPUT ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf
+INPUT ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf
 INPUT ./figures/TUM_Logo_weiss_e.eps
 INPUT ./figures/TUM_Logo_weiss_e.eps
 INPUT ./figures/TUM_Logo_weiss_e.eps
@@ -1590,11 +1596,46 @@ INPUT ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf
 INPUT ./figures/TUM_Logo_weiss_e.eps
 INPUT ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf
 INPUT ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf
-INPUT ./figures/graphs/Linear Regression Results.png
-INPUT ./figures/graphs/Linear Regression Results.png
-INPUT figures/graphs/Linear Regression Results.png
-INPUT ./figures/graphs/Linear Regression Results.png
-INPUT ./figures/graphs/Linear Regression Results.png
+INPUT ./figures/TUM_Logo_weiss_e.eps
+INPUT ./figures/TUM_Logo_weiss_e.eps
+INPUT ./figures/TUM_Logo_weiss_e.eps
+INPUT ./figures/TUM_Logo_weiss_e.eps
+INPUT ./figures/TUM_Logo_weiss_e.eps
+INPUT ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf
+INPUT ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf
+INPUT ./figures/TUM_Logo_weiss_e.eps
+INPUT ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf
+INPUT ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf
+INPUT ./figures/graphs/Prediction of the Acceleration (Distance Formula).png
+INPUT ./figures/graphs/Prediction of the Acceleration (Distance Formula).png
+INPUT figures/graphs/Prediction of the Acceleration (Distance Formula).png
+INPUT ./figures/graphs/Prediction of the Acceleration (Distance Formula).png
+INPUT ./figures/graphs/Prediction of the Acceleration (Distance Formula).png
+INPUT ./figures/graphs/Prediction of the Acceleration (Velocity formula).png
+INPUT ./figures/graphs/Prediction of the Acceleration (Velocity formula).png
+INPUT figures/graphs/Prediction of the Acceleration (Velocity formula).png
+INPUT ./figures/graphs/Prediction of the Acceleration (Velocity formula).png
+INPUT ./figures/graphs/Prediction of the Acceleration (Velocity formula).png
+INPUT ./figures/TUM_Logo_weiss_e.eps
+INPUT ./figures/TUM_Logo_weiss_e.eps
+INPUT ./figures/TUM_Logo_weiss_e.eps
+INPUT ./figures/TUM_Logo_weiss_e.eps
+INPUT ./figures/TUM_Logo_weiss_e.eps
+INPUT ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf
+INPUT ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf
+INPUT ./figures/TUM_Logo_weiss_e.eps
+INPUT ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf
+INPUT ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf
+INPUT ./figures/graphs/Acceleration Equivalence (Ballistic integration).png
+INPUT ./figures/graphs/Acceleration Equivalence (Ballistic integration).png
+INPUT figures/graphs/Acceleration Equivalence (Ballistic integration).png
+INPUT ./figures/graphs/Acceleration Equivalence (Ballistic integration).png
+INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmss9.tfm
+INPUT ./figures/graphs/Acceleration Equivalence (Our integration model).png
+INPUT ./figures/graphs/Acceleration Equivalence (Our integration model).png
+INPUT figures/graphs/Acceleration Equivalence (Our integration model).png
+INPUT ./figures/graphs/Acceleration Equivalence (Our integration model).png
+INPUT ./figures/graphs/Acceleration Equivalence (Our integration model).png
 INPUT ./figures/TUM_Logo_weiss_e.eps
 INPUT ./figures/TUM_Logo_weiss_e.eps
 INPUT ./figures/TUM_Logo_weiss_e.eps
@@ -1606,66 +1647,6 @@ INPUT ./figures/TUM_Logo_weiss_e.eps
 INPUT ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf
 INPUT ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmssi10.tfm
-INPUT ./figures/TUM_Logo_weiss_e.eps
-INPUT ./figures/TUM_Logo_weiss_e.eps
-INPUT ./figures/TUM_Logo_weiss_e.eps
-INPUT ./figures/TUM_Logo_weiss_e.eps
-INPUT ./figures/TUM_Logo_weiss_e.eps
-INPUT ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf
-INPUT ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf
-INPUT ./figures/TUM_Logo_weiss_e.eps
-INPUT ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf
-INPUT ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf
-INPUT ./sections/future_work.tex
-INPUT sections/future_work.tex
-INPUT ./sections/future_work.tex
-INPUT sections/future_work.tex
-INPUT build/main.toc
-INPUT build/main.toc
-INPUT build/main.toc
-INPUT ./figures/TUM_Logo_weiss_e.eps
-INPUT ./figures/TUM_Logo_weiss_e.eps
-INPUT ./figures/TUM_Logo_weiss_e.eps
-INPUT ./figures/TUM_Logo_weiss_e.eps
-INPUT ./figures/TUM_Logo_weiss_e.eps
-INPUT ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf
-INPUT ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf
-INPUT ./figures/TUM_Logo_weiss_e.eps
-INPUT ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf
-INPUT ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf
-INPUT build/main.toc
-INPUT build/main.toc
-INPUT build/main.toc
-INPUT ./figures/TUM_Logo_weiss_e.eps
-INPUT ./figures/TUM_Logo_weiss_e.eps
-INPUT ./figures/TUM_Logo_weiss_e.eps
-INPUT ./figures/TUM_Logo_weiss_e.eps
-INPUT ./figures/TUM_Logo_weiss_e.eps
-INPUT ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf
-INPUT ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf
-INPUT ./figures/TUM_Logo_weiss_e.eps
-INPUT ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf
-INPUT ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf
-INPUT ./figures/TUM_Logo_weiss_e.eps
-INPUT ./figures/TUM_Logo_weiss_e.eps
-INPUT ./figures/TUM_Logo_weiss_e.eps
-INPUT ./figures/TUM_Logo_weiss_e.eps
-INPUT ./figures/TUM_Logo_weiss_e.eps
-INPUT ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf
-INPUT ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf
-INPUT ./figures/TUM_Logo_weiss_e.eps
-INPUT ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf
-INPUT ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf
-INPUT ./figures/TUM_Logo_weiss_e.eps
-INPUT ./figures/TUM_Logo_weiss_e.eps
-INPUT ./figures/TUM_Logo_weiss_e.eps
-INPUT ./figures/TUM_Logo_weiss_e.eps
-INPUT ./figures/TUM_Logo_weiss_e.eps
-INPUT ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf
-INPUT ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf
-INPUT ./figures/TUM_Logo_weiss_e.eps
-INPUT ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf
-INPUT ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf
 INPUT ./figures/TUM_Logo_weiss_e.eps
 INPUT ./figures/TUM_Logo_weiss_e.eps
 INPUT ./figures/TUM_Logo_weiss_e.eps
@@ -1743,13 +1724,17 @@ INPUT ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf
 INPUT ./figures/TUM_Logo_weiss_e.eps
 INPUT ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf
 INPUT ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf
-INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmss9.tfm
+INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmss8.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmmi9.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmsy9.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex9.tfm
+INPUT /usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT /usr/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT /usr/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/sansmathaccent/mathkerncmssi9.tfm
+INPUT /usr/share/texmf-dist/fonts/tfm/public/sansmathaccent/mathkerncmssi8.tfm
 INPUT ./figures/snapshots_blue.eps
 INPUT ./figures/snapshots_blue.eps
 INPUT ./figures/snapshots_blue.eps
@@ -1899,6 +1884,50 @@ INPUT ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf
 INPUT ./figures/TUM_Logo_weiss_e.eps
 INPUT ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf
 INPUT ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf
+INPUT ./figures/graphs/Ballistic integration acceleration accuracy.png
+INPUT ./figures/graphs/Ballistic integration acceleration accuracy.png
+INPUT figures/graphs/Ballistic integration acceleration accuracy.png
+INPUT ./figures/graphs/Ballistic integration acceleration accuracy.png
+INPUT ./figures/graphs/Ballistic integration acceleration accuracy.png
+INPUT ./figures/TUM_Logo_weiss_e.eps
+INPUT ./figures/TUM_Logo_weiss_e.eps
+INPUT ./figures/TUM_Logo_weiss_e.eps
+INPUT ./figures/TUM_Logo_weiss_e.eps
+INPUT ./figures/TUM_Logo_weiss_e.eps
+INPUT ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf
+INPUT ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf
+INPUT ./figures/TUM_Logo_weiss_e.eps
+INPUT ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf
+INPUT ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf
+INPUT ./figures/graphs/Ballistic integration acceleration accuracy.png
+INPUT ./figures/graphs/Ballistic integration acceleration accuracy.png
+INPUT figures/graphs/Ballistic integration acceleration accuracy.png
+INPUT ./figures/graphs/Ballistic integration acceleration accuracy.png
+INPUT ./figures/TUM_Logo_weiss_e.eps
+INPUT ./figures/TUM_Logo_weiss_e.eps
+INPUT ./figures/TUM_Logo_weiss_e.eps
+INPUT ./figures/TUM_Logo_weiss_e.eps
+INPUT ./figures/TUM_Logo_weiss_e.eps
+INPUT ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf
+INPUT ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf
+INPUT ./figures/TUM_Logo_weiss_e.eps
+INPUT ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf
+INPUT ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf
+INPUT ./figures/graphs/Linear Regression Results.png
+INPUT ./figures/graphs/Linear Regression Results.png
+INPUT figures/graphs/Linear Regression Results.png
+INPUT ./figures/graphs/Linear Regression Results.png
+INPUT ./figures/graphs/Linear Regression Results.png
+INPUT ./figures/TUM_Logo_weiss_e.eps
+INPUT ./figures/TUM_Logo_weiss_e.eps
+INPUT ./figures/TUM_Logo_weiss_e.eps
+INPUT ./figures/TUM_Logo_weiss_e.eps
+INPUT ./figures/TUM_Logo_weiss_e.eps
+INPUT ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf
+INPUT ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf
+INPUT ./figures/TUM_Logo_weiss_e.eps
+INPUT ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf
+INPUT ./figures/TUM_Logo_weiss_e-eps-converted-to.pdf
 OUTPUT build/main.nav
 OUTPUT build/main.toc
 OUTPUT build/main.snm
@@ -1912,6 +1941,7 @@ INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb
+INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb
