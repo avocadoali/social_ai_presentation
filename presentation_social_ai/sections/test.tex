@@ -151,3 +151,59 @@ end{frame}
     \center Video demo of predicted car
 \end{frame}
 
+\begin{frame}
+  \frametitle{Our Integration Model }
+    Our Distance and Velocity Equations:
+\onslide<2, 3>{
+    \begin{align*}
+    s(t+1) &= s(t) + dt \cdot v(t)+ c_1 a(t) + c_2 a(t-1) \\
+    v(t+1) &= v(t) + c_3 a(t) + c_4 a(t-1)
+    \end{align*}
+
+    \hfil
+}
+\onslide<3>{
+
+    Our Acceleration Equations:
+    \begin{align*}
+    a(k) &= - \overline c_1 a(k-1)  + \overline c_2 \bigl( s(k+1) - s(k) - dt \cdot  v(k)\bigr)\\
+    a(k) &= - \overline c_3 a(k-1)  + \overline c_4 \bigl( v(k+1) - v(k) \bigr) 
+    \end{align*}
+}
+
+\end{frame}
+
+
+\begin{frame}
+  \frametitle{Our Integration Model}
+  \onslide<1->{
+    Model in matrix form:
+    \begin{center}
+      \scriptsize
+      \begin{align*}
+        \begin{bmatrix} a(k) \\ a(k) \end{bmatrix}
+        &=
+        \begin{bmatrix} 
+            -a(k-1) & s(k+1) - s(k) - dt \cdot v(k) & 0 & 0   \\
+            0 & 0 &-a(k-1) & v(k+1) - v(k) 
+        \end{bmatrix}
+        \begin{bmatrix}
+            \overline{\textcolor{red}{c_1}} \\
+            \overline{\textcolor{red}{c_2}} \\
+            \overline{\textcolor{red}{c_3}} \\
+            \overline{\textcolor{red}{c_4}} \\
+        \end{bmatrix}
+      \end{align*}
+    \end{center}
+  }
+  \hfil
+
+  \hfil
+
+  \hfil
+
+  \onslide<2->{
+    $\Rightarrow$ This can be solved using linear regression.
+  }
+\end{frame}
+
