@@ -1,5 +1,103 @@
 #+title: Presentation Notes
 
+
+* Questions for baris
+- how many datasets was this filter used on
+- how many cars were tested
+
+
+
+* Script
+
+
+** Previous integration model
+
+- used ballistic integration in the previous implementation
+- show formula
+- look somewhat familiar from numerical programming
+- what we are doing is
+- calculate next timestep using current timestep
+- we are working with discrete time (so not t but k)
+- For neural network we rearrange the formula for a(k)
+- problem: not the same result!
+- Big discretization error over time!
+
+** Our approach
+- in a nutshell we want to try to find a more accurate integration formula
+- this took most of our time (funny that it is now just one click)
+- here is what we did,
+- using a linear model for the distance and velocity
+- some constants c_1 to c_4
+
+- now we just rearrange this for the acceleration
+- constants are renamed
+- but how do we solve for the constants?
+- imagine this as in matrix form
+- think most people will know where this is going
+- linear model which can be solved using linear regression
+
+Quite straight forward isnt it
+Now to our results
+
+** Results
+*** Scenario Filtering
+- Will start with the scenario filtering process
+- Have x amount of different behaviours which now can be automatically detected
+- show video
+- here we have a side by side view of a portion of our dataset visualized
+- on the left we have the unfiltered dataset
+- on the right we have the filtered dataset
+- here we have an exiting scenario
+  (This was done on x datasets)
+
+- Now we will take a look at the results of our integration model
+
+*** Integration Method
+- Jus as a reminder
+- Linear regression model tried to approximate the accerleration of a car
+- result of the regression can be seen here
+- x-axis ground truth data of acceleration
+- y-axis predicted data of acceleration using the coefficients
+- our goal was that both our accelerations to match each other
+- and we managed to do that
+- this the graph for the formula from the velocity
+- seem pretty similar rigth?
+- just for comparison
+- equivalence graph of ballistic integration
+- and this is ours
+- looking at the mse
+
+- ofc visualized our results!
+- left: ground truth
+- right: predicted car
+- matches up quite nicely
+- but at end on sidewalk (in depth analysis in the report)
+
+
+*** Summary
+- filtering mech
+- integration method with matching accelerations
+- visualized car
+
+** Future work
+- more scnearios
+- use other datsets
+
+- finetune model for better accuracy
+- test model with the neural network
+- task for the next team
+
+
+
+
+
+
+
+
+* Gpt prompts
+
+
+
 User
 I am doing a presentation in latex beamer. Improve these notes and make keywords for the latex beamer slide:
 Future work (Alfred if not enough)
