@@ -5,6 +5,9 @@
 - how many datasets was this filter used on
 - how many cars were tested
 
+- acceleration equivalence (axis called differently)
+- video of filtering (left unfiltered  ,right filtered)
+
 
 
 * Script
