@@ -1,4 +1,25 @@
-\section{Test}
+%\section{Test}
+
+\begin{frame}
+\end{frame}
+
+
+\begin{frame}
+\end{frame}
+
+
+\begin{frame}
+\end{frame}
+
+
+\begin{frame}
+\end{frame}
+
+
+\begin{frame}
+\end{frame}
+
+
 \begin{frame}
   \frametitle{Acceleration Modification in the Y-axis}
   \begin{figure}
@@ -319,3 +340,107 @@ end{frame}
   }
 
 \end{frame}
+
+\begin{frame}
+    \textbf{Autonomous Driving Promise}
+    \begin{itemize}[]
+        \item Efficiency and Safety
+    \end{itemize}
+
+    \hfil
+
+    \textbf{Challenges in Motion Prediction}
+    \begin{itemize}[]
+        \item Efficiency and Safety
+    \end{itemize}
+
+    \hfil
+
+    \textbf{Multimodality}
+    \begin{itemize}[]
+        \item Scene Dependence
+        \item Social Acceptability
+    \end{itemize}
+
+    \hfil
+
+    \textbf{Crucial Understanding}
+    \begin{itemize}[]
+        \item Human-Driven Behavior Key
+    \end{itemize}
+
+    \hfil
+
+    \textbf{Limitations of Current AI Tools}
+    \begin{itemize}[]
+        \item Control Perspective Absent
+        \item Intent Interpretation Challenge
+    \end{itemize}
+
+
+
+
+
+\end{frame}
+
+
+
+
+\begin{frame}
+
+  \frametitle{Previous Integration Model }
+    Distance and Velocity Equations (Ballistic Integration):
+    \onslide<2, 3, 4>{
+    \begin{align*}
+        s(k+1) &= s(k) + dt \cdot v(k) + \frac{dt^2}{2} \color{blue}{a(k)} \\
+        v(k+1) &= v(k) + dt \cdot                       \color{blue}{a(k)}
+    \end{align*}
+
+    }
+    \onslide<3, 4>{
+
+    \hfil
+
+    Acceleration Equations (Rearranged):
+    \begin{align*}
+    \color{blue}{a(k)} &= \frac{2}{dt^2} \Bigl( s(k+1) - s(k) - dt \cdot v(k) \Bigr)\\
+    \color{blue}{a(k)} &= \frac{1}{dt} \Bigl( v(k+1) - v(k) \Bigr)
+    \end{align*}
+    }
+    \onslide<4>{
+
+      \textbf{Problem:} Accelerations are not equal!
+    }
+\end{frame}
+
+\begin{frame}
+  \frametitle{Results: Integration Method}
+  \begin{figure}
+    \centering
+    \begin{minipage}[b]{0.49\linewidth}
+
+  \onslide<1, 2>{
+        \includegraphics[width=\textwidth]{figures/graphs/Prediction of the Acceleration: Distance formula.png}
+  }
+    \end{minipage}
+    \begin{minipage}[b]{0.49\linewidth}
+      \centering
+  \onslide<2>{
+        \includegraphics[width=\textwidth]{figures/graphs/Prediction of the Acceleration: Velocity formula.png}
+  }
+    \end{minipage}
+  \end{figure}
+\end{frame}
+
+
+\begin{frame}
+  \frametitle{Results}
+    Summary:
+    \begin{itemize}[<+->]
+      \item Successfully implemented the filtering mechanism
+      \item Able to filter out X different scenarios in Y datasets
+      \item Found a better integration method where the accelerations match
+      \item Able to visualize the integration method and modulate the movement of a car
+    \end{itemize}
+\end{frame}
+
