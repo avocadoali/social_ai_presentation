@@ -1,0 +1,118 @@
+\section{Introduction}
+
+\begin{frame}
+  \frametitle{Introduction}
+
+   \begin{columns}[c]
+       \begin{column}{0.5\hsize}
+            \textbf{Autonomous Driving Promise}
+            \begin{itemize}[]
+                \item Efficiency and Safety
+            \end{itemize}
+
+            \hfil
+
+            \textbf{Challenges in Motion Prediction}
+            
+            \begin{itemize}[]
+                \item Multimodality
+                \item Scene Dependence
+                \item Social Acceptability
+            \end{itemize}
+
+       \end{column}
+       \begin{column}{0.5\hsize}
+            \textbf{Crucial Understanding}
+            \begin{itemize}[]
+                \item Human-Driven Behavior Key
+            \end{itemize}
+
+            \hfil
+
+            \textbf{Limitations of Current AI Tools}
+            \begin{itemize}[]
+                \item Control Perspective Absent
+                \item Intent Interpretation Challenge
+            \end{itemize}
+       \end{column}
+   \end{columns}
+
+
+
+
+\end{frame}
+
+
+
+\begin{frame}
+    \textbf{Autonomous Driving Promise}
+    \begin{itemize}[]
+        \item Efficiency and Safety
+    \end{itemize}
+
+    \hfil
+
+    \textbf{Challenges in Motion Prediction}
+    \begin{itemize}[]
+        \item Efficiency and Safety
+    \end{itemize}
+
+    \hfil
+
+    \textbf{Multimodality}
+    \begin{itemize}[]
+        \item Scene Dependence
+        \item Social Acceptability
+    \end{itemize}
+
+    \hfil
+
+    \textbf{Crucial Understanding}
+    \begin{itemize}[]
+        \item Human-Driven Behavior Key
+    \end{itemize}
+
+    \hfil
+
+    \textbf{Limitations of Current AI Tools}
+    \begin{itemize}[]
+        \item Control Perspective Absent
+        \item Intent Interpretation Challenge
+    \end{itemize}
+
+
+
+
+
+\end{frame}
+
+
+
+
+\begin{frame}
+
+  \frametitle{Previous Integration Model }
+    Distance and Velocity Equations (Ballistic Integration):
+    \onslide<2, 3, 4>{
+    \begin{align*}
+        s(k+1) &= s(k) + dt \cdot v(k) + \frac{dt^2}{2} \color{blue}{a(k)} \\
+        v(k+1) &= v(k) + dt \cdot                       \color{blue}{a(k)}
+    \end{align*}
+
+    }
+    \onslide<3, 4>{
+
+    \hfil
+
+    Acceleration Equations (Rearranged):
+    \begin{align*}
+    \color{blue}{a(k)} &= \frac{2}{dt^2} \Bigl( s(k+1) - s(k) - dt \cdot v(k) \Bigr)\\
+    \color{blue}{a(k)} &= \frac{1}{dt} \Bigl( v(k+1) - v(k) \Bigr)
+    \end{align*}
+    }
+    \onslide<4>{
+
+      \textbf{Problem:} Accelerations are not equal!
+    }
+\end{frame}
+
