@@ -1,0 +1,77 @@
+#+title: Presentation Notes
+
+
+* Questions for baris
+- how many datasets was this filter used on
+- how many cars were tested
+
+- acceleration equivalence (axis called differently)
+- video of filtering (left unfiltered  ,right filtered)
+
+* Script
+
+
+** Overview of our model
+
+- got through the figure
+- had a problem with this part in previouse work
+- discrete dataset lead to big discretization error
+
+- in a nutshell we want to try to find a more accurate integration formula
+
+** Our approach
+- very similar to other discrete integration models
+- using a linear model for the distance and velocity
+- some constants c_1 to c_4
+- get the next distance/velocity by using current and previous data
+
+
+- now for the neural network our supervisors were working with they needed ground truth of accerleration
+- problem was that these two acccelerations didnt add up or were not equal before
+- will show graphs later
+- by using linear model instead of formulas we hoped to minimize the error
+
+
+Will look at the results now
+First the scenario filtering
+
+** Results
+*** Scenario Filtering
+- here we have a side by side view of a portion of our dataset visualized
+- on the left we have the unfiltered dataset
+- on the right we have the filtered dataset
+- here we have an exiting scenario
+  (This was done on x datasets)
+
+- Now we will take a look at the results of our integration model
+
+*** Integration Method
+- this was the results before
+- acceleration didnt add up
+- x-axis was firts formula, y-axis second formula
+- after finetuning our results add up way better
+
+- so we got a model that could predict the acceleration of the car quite comfortably
+- rearanging the formula give us the velocity and distance
+- ofc visualized our results!
+- left: ground truth
+- right: predicted car
+- matches up quite nicely
+- but at end on sidewalk (in depth analysis in the report)
+
+*** Summary
+- filtering mech
+- integration method with matching accelerations
+- visualized car
+
+** Future work
+- more scnearios
+- greater variety of filtere datasets to work with
+- use other datsets to test method
+
+- finetune model for better accuracy
+  as have seen there still was some error in the test set
+  though that might be enough already!
+- test model with the neural network
+- task for the next team
+
