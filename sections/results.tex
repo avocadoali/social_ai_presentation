@@ -1,7 +1,7 @@
 
 \section{Results}
 
-\subsection{Scenario Filtering}
+\subsection{Filtering Process}
 
 \begin{frame}
   \frametitle{Scenario filtering}
@@ -10,41 +10,6 @@
 
 
 \subsection{Integration Method}
-
-\begin{frame}
-  \frametitle{Reminder: Our Model - Matrix Form}
-    Acceleration from Distance formula:
-    \begin{align*}
-        \begin{bmatrix} a(k) \\ \end{bmatrix}
-        &=
-        \begin{bmatrix}
-            -a(k-1)  & v(k+1) - v(k)   \\ 
-        \end{bmatrix}
-        \begin{bmatrix}
-            \overline{\textcolor{red}{c_1}} \\
-            \overline{\textcolor{red}{c_2}} \\
-        \end{bmatrix} \\
-    \end{align*}
-
-    Acceleration from Velocity formula:
-    \begin{align*}
-        \begin{bmatrix}
-            a(k) \\ 
-        \end{bmatrix}
-        &=
-        \begin{bmatrix}
-            -a(k-1) &    s(k+1) - s(k) - dt \cdot  v(k)   \\ 
-        \end{bmatrix}
-        \begin{bmatrix}
-            \overline{\textcolor{red}{c_3}} \\
-            \overline{\textcolor{red}{c_4}} \\
-        \end{bmatrix}
-    \end{align*}
-
-    \hfil
-
-    $\Rightarrow$ This can be solved using linear regression.
-\end{frame}
 
 \begin{frame}
   \frametitle{Results: Comparison to the old acceleration model}
